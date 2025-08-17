@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+}
+
+section {
+    scroll-margin-top: 80px;
+}
+
+.header-font {
+    font-family: 'Playfair Display', serif;
+}
+
+
+
+.team-member {
+    transition: all 0.3s ease;
+    transform: translateY(0);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.team-member:hover .specialty {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.specialty {
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease 0.1s;
+}
+
+.practice-area {
+    transition: all 0.3s ease;
+}
+
+.practice-area:hover {
+    transform: scale(1.02);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card {
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.bg-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.hero-bg {
+    background: linear-gradient(rgba(26, 54, 93, 0.85), rgba(26, 54, 93, 0.9)), url('/src/assets/hero-bg.avif');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+/* esto lo quiero poner, pero tal vez en otro lado */
+/* .hero-bg:focus,
+.hero-bg:hover {
+    transform: scale(1.04);
+}
+.hero-bg.scrolled {
+    transform: scale(1);
+} */

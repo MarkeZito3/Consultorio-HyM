@@ -2,7 +2,7 @@ import React from 'react'
 
 function Contact() {
   return (
-    <section className="py-16 bg-primary text-white px-4">
+    <section id='Contacto' className="py-16 bg-primary text-white px-4">
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-center mb-4 header-font">Contacto</h2>
         <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
@@ -13,8 +13,8 @@ function Contact() {
               <i className="fas fa-map-marker-alt"></i>
             </div>
             <h3 className="text-xl font-bold mb-2">Dirección</h3>
-            <p>Calle Siempre Viva 123</p>
-            <p>Santiago, Chile</p>
+            <p>Calle Sargento Aldea 2651 A</p>
+            <p>San Javier, Región del Maule. Chile</p>
           </div>
           
           <div className="contact-card bg-secondary rounded-xl p-6 text-center">
@@ -22,8 +22,8 @@ function Contact() {
               <i className="fas fa-phone-alt"></i>
             </div>
             <h3 className="text-xl font-bold mb-2">Teléfonos</h3>
-            <p>+56 9 996X XX 06</p>
-            <p>+56 9 974X XX 20</p>
+            <p>+56 9 96577506</p>
+            <p>+56 9 74793920</p>
           </div>
           
           <div className="contact-card bg-secondary rounded-xl p-6 text-center">
@@ -31,8 +31,8 @@ function Contact() {
               <i className="fas fa-envelope"></i>
             </div>
             <h3 className="text-xl font-bold mb-2">Correos</h3>
-            <p>estudiojuridico@gmail.com</p>
-            <p>hernandezejemplo@gmail.com</p>
+            <p>willyhern@gmail.com</p>
+            <p>@gmail.com</p>
           </div>
         </div>
         

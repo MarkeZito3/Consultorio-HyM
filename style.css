@@ -14,8 +14,17 @@ header {
     z-index: 50;
 }
 
-section {
+#SobreNosotros {
     scroll-margin-top: 80px;
+}
+
+@media (max-width: 600px) {
+    #contacto {
+        scroll-margin-top: 10px;
+    }
+    #SobreNosotros {
+        scroll-margin-top: 40px;
+    }
 }
 
 .header-font {
@@ -69,7 +78,13 @@ section {
 }
 
 .hero-bg {
-    background: linear-gradient(rgba(26, 54, 93, 0.85), rgba(26, 54, 93, 0.9)), url('/src/assets/hero-bg.avif');
+    background: linear-gradient(#6B4D3633, #41342B), url('/src/assets/hero-bg.avif');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+.hero-bg-local{
+    background: linear-gradient(#6B4D3633, #41342B), url('/src/assets/foto-local.png');
     background-size: cover;
     background-position: center;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);

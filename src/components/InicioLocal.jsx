@@ -1,8 +1,6 @@
-import React from 'react'
-
-function Inicio() {
+function InicioLocal() {
   return (
-    <section id='Inicio' className="hero-bg bg-primary text-white py-40 px-4 bg-diagonal">
+    <section id='Inicio' className="hero-bg-local bg-primary text-white py-40 px-4">
       <div className="container mx-auto text-center">
         <h1 className="text-4xl md:text-5xl font-bold header-font mb-7">Consultorio Hernandes & Asociados</h1>
         <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
@@ -17,4 +15,4 @@ function Inicio() {
   )
 }
 
-export default Inicio
+export default InicioLocal

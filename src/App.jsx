@@ -1,6 +1,7 @@
 import React from 'react'
 import Header from './components/Header'
 import Inicio from './components/Inicio'
+import InicioLocal from './components/InicioLocal'
 import About from './components/About'
 import Team from './components/Team'
 import Contact from './components/Contact'
@@ -16,6 +17,7 @@ function App() {
           <>
             <Inicio/>
             <About />
+            <InicioLocal/>
             <Contact />
           </>
         } />

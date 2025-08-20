@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
+import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom'
 
 function Header() {
@@ -37,6 +38,8 @@ function Header() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
+  let fontSizeLogo = window.innerWidth <= 600 ? "text-l" : "text-2xl";
+
   return (
     <header
       className={`bg-primary text-white py-2 px-4 transition-transform duration-300
@@ -48,11 +51,12 @@ function Header() {
         <div className="flex items-center mb-1 md:mb-0 w-full md:w-auto justify-between">
           {/* logo */}
           <Link to="/" className="flex items-center" onClick={() => {window.scrollTo(0, 0);}}>
-            <div className="bg-white text-primary rounded-full w-12 h-12 flex items-center justify-center mr-3">
+            <div className="text-primary rounded-full w-20 h-12 flex items-center justify-center mr-4">
               {/* aquí abajo va el logo real  */}
-              <i className="fas fa-balance-scale text-xl"></i>
+              <img src={logo} alt="Logo" className="w-16 h-16 object-contain" />
+              {/* <i className="fas fa-balance-scale text-xl"></i> */}
             </div>
-            <h1 className="text-2xl font-bold header-font">Consultorio Hernández & Asociados</h1>
+            <h1 className={`${fontSizeLogo} font-bold header-font`}>Consultorio Hernández & Asociados</h1>
           </Link>
           {/* Botón hamburguesa solo en celulares */}
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>

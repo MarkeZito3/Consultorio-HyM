@@ -1,7 +1,14 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
+import servicesData from './Services.json'
 
 function About() {
+  const [selectedService, setSelectedService] = useState(null)
+
+  const handleServiceClick = (service) => {
+    setSelectedService(selectedService?.id === service.id ? null : service)
+  }
+
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto">
@@ -19,16 +26,33 @@ function About() {
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">
-            <div className="relative">
-              <div className="bg-secondary rounded-lg w-64 h-64 md:w-80 md:h-80 flex items-center justify-center">
-                <div className="bg-gray-200 border-2 border-dashed rounded-xl w-48 h-48 md:w-64 md:h-64">
-                  <div className='transition-transform duration-300 ease-out hover:-translate-y-3'>
-                    <img className="w-full h-full object-cover rounded-xl" src="https://png.pngtree.com/png-clipart/20241012/original/pngtree-free-lawyer-cliparts-png-image_16288657.png" alt="Sobre Nosotros" />
-                  </div>
+            <div className="flex flex-col md:flex-row gap-8 items-center">
+              {/* Círculo para Willi Hernández Orellana */}
+              <div className="relative">
+                <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-lg hover:shadow-xl transition-shadow duration-300">
+                  <img 
+                    className="w-full h-full object-cover" 
+                    src="" 
+                    alt="Willi Hernández Orellana" 
+                  />
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-white py-2 px-4 rounded-lg shadow-lg text-sm font-semibold">
+                  Willi Hernández Orellana
                 </div>
               </div>
-              <div className="absolute -bottom-4 -right-4 bg-accent text-white py-2 px-6 rounded-lg shadow-lg">
-                <span className="font-bold">+25 años</span> de experiencia
+              
+              {/* Círculo para Elizabeth Morales */}
+              <div className="relative">
+                <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-lg hover:shadow-xl transition-shadow duration-300">
+                  <img 
+                    className="w-full h-full object-cover" 
+                    src="https://via.placeholder.com/300x300/E24A90/FFFFFF?text=Elizabeth+Morales" 
+                    alt="Elizabeth Morales" 
+                  />
+                </div>
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-white py-2 px-4 rounded-lg shadow-lg text-sm font-semibold">
+                  Elizabeth Morales
+                </div>
               </div>
             </div>
           </div>
@@ -38,40 +62,51 @@ function About() {
           <div className="container mx-auto">
             <h2 className="text-3xl font-bold text-center text-primary mb-4 header-font">Servicios</h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {/* Área 1 */}
-              <Link to={"/leyes"} className="practice-area bg-white p-6 rounded-xl shadow-md border-l-4 border-secondary">
-                <div className="flex items-start mb-4">
-                  <div className="bg-primary text-white rounded-lg p-3 mr-4">
-                    <i className="fas fa-balance-scale text-xl"></i>
+            {/* Grid de servicios */}
+            <div className="">
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                {servicesData.map((service) => (
+                  <div 
+                    key={service.id}
+                    onClick={() => handleServiceClick(service)}
+                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
+                      selectedService?.id === service.id ? 'ring-2 ring-accent' : ''
+                    }`}
+                  >
+                    <div className="flex flex-col items-center text-center">
+                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
+                        <i className={`${service.icono} text-xl`}></i>
+                      </div>
+                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
+                    </div>
                   </div>
-                  <h3 className="text-xl font-bold text-primary">Leyes</h3>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur accusantium beatae neque fuga sint. Sed consequatur atque dignissimos voluptatem ex, ullam voluptates minima earum impedit cupiditate excepturi neque unde eligendi quae modi. Ea nisi quae facere hic consequatur cupiditate earum?</p>
-              </Link>
-              {/* Área 2 */}
-              <Link to={"/contabilidad"} className="practice-area bg-white p-6 rounded-xl shadow-md border-l-4 border-secondary">
-                <div className="flex items-start mb-4">
-                  <div className="bg-secondary text-white rounded-lg p-3 mr-4">
-                    <i className="fas fa-file-invoice-dollar text-xl"></i>
-                  </div>
-                  <h3 className="text-xl font-bold text-primary">Contabilidad</h3>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur accusantium beatae neque fuga sint. Sed consequatur atque dignissimos voluptatem ex, ullam voluptates minima earum impedit cupiditate excepturi neque unde eligendi quae modi. Ea nisi quae facere hic consequatur cupiditate earum?</p>
-              </Link>
-              {/* Área 3 */}
-              <Link to={"/derecho_inmobiliario"} className="practice-area bg-white p-6 rounded-xl shadow-md border-l-4 border-secondary">
-                <div className="flex items-start mb-4">
-                  <div className="bg-secondary text-white rounded-lg p-3 mr-4">
-                    <i className="fas fa-house text-xl"></i>
-                  </div>
-                  <h3 className="text-xl font-bold text-primary">Derecho Inmobiliario</h3>
-                </div>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur accusantium beatae neque fuga sint. Sed consequatur atque dignissimos voluptatem ex, ullam voluptates minima earum impedit cupiditate excepturi neque unde eligendi quae modi. Ea nisi quae facere hic consequatur cupiditate earum?</p>
-              </Link>
+                ))}
+              </div>
             </div>
+            {/* Panel de descripción eliminado de aquí */}
           </div>
         </section>
+        {/* Panel de descripción flotante */}
+        {selectedService && (
+          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 animate-fade-in">
+            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-accent max-w-md w-full relative animate-fade-in">
+              <button
+                onClick={() => setSelectedService(null)}
+                className="absolute top-2 right-2 text-accent hover:text-primary font-bold text-xl"
+                aria-label="Cerrar"
+              >
+                ×
+              </button>
+              <div className="flex items-center mb-4">
+                <div className={`${selectedService.color} text-white rounded-lg p-3 mr-4`}>
+                  <i className={`${selectedService.icono} text-xl`}></i>
+                </div>
+                <h3 className="text-xl font-bold text-primary">{selectedService.titulo}</h3>
+              </div>
+              <p className="text-gray-700 leading-relaxed">{selectedService.descripcion}</p>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   )

@@ -52,7 +52,7 @@ function Header() {
               {/* aquí abajo va el logo real  */}
               <i className="fas fa-balance-scale text-xl"></i>
             </div>
-            <h1 className="text-2xl font-bold header-font">Estudio Jurídico H&M</h1>
+            <h1 className="text-2xl font-bold header-font">Consultorio Hernández & Asociados</h1>
           </Link>
           {/* Botón hamburguesa solo en celulares */}
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>

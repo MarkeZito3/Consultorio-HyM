@@ -95,6 +95,12 @@ header {
     background-position: center;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
+#BannerTeam{
+    background: linear-gradient(#6B4D3633, #41342B), url('/src/assets/foto-local.png');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
 /* esto lo quiero poner, pero tal vez en otro lado */
 /* .hero-bg:focus,
 .hero-bg:hover {

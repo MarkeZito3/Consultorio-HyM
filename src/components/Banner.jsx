@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Inicio() {
+export function Inicio() {
   return (
     <section id='Inicio' className="hero-bg bg-primary text-white py-60 px-4 bg-diagonal">
       <div className="container mx-auto text-center">
@@ -17,4 +17,24 @@ function Inicio() {
   )
 }
 
-export default Inicio
+export function BannerTeam() {
+  return (
+    <section id="BannerTeam" className="bg-secondary text-white py-40 px-4 bg-diagonal">
+      <div className="container mx-auto text-center">
+        <h2 className="text-2xl md:text-3xl font-bold header-font mb-4">Nuestro Equipo</h2>
+        <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
+      </div>
+    </section>
+  )
+}
+
+export function BannerLeyes() {
+  return (
+    <section id="BannerLeyes" className="bg-secondary text-white py-40 px-4 bg-diagonal">
+      <div className="container mx-auto text-center">
+        <h2 className="text-2xl md:text-3xl font-bold header-font mb-4">Leyes</h2>
+        <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
+      </div>
+    </section>
+  )
+}

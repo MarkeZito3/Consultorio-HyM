@@ -5,6 +5,12 @@ import servicesData from './Services.json'
 function About() {
   const [selectedService, setSelectedService] = useState(null)
 
+  // Ordenar las áreas como pide el usuario
+  const areaOrder = ["Leyes", "Contable", "DerechoInmobiliaria"];
+  const allServices = areaOrder.flatMap(area =>
+    (servicesData[area] || []).map(service => ({ ...service, area }))
+  );
+
   const handleServiceClick = (service) => {
     setSelectedService(selectedService?.id === service.id ? null : service)
   }
@@ -64,13 +70,52 @@ function About() {
             <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
             {/* Grid de servicios */}
             <div className="">
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                {servicesData.map((service) => (
-                  <div 
-                    key={service.id}
-                    onClick={() => handleServiceClick(service)}
+              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Leyes</h3>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                {(servicesData["Leyes"] || []).map((service) => (
+                  <div
+                    key={service.id + "Leyes"}
+                    onClick={() => handleServiceClick({ ...service, area: "Leyes" })}
                     className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
-                      selectedService?.id === service.id ? 'ring-2 ring-accent' : ''
+                      selectedService?.id === service.id && selectedService?.area === "Leyes" ? 'ring-2 ring-accent' : ''
+                    }`}
+                  >
+                    <div className="flex flex-col items-center text-center">
+                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
+                        <i className={`${service.icono} text-xl`}></i>
+                      </div>
+                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Contabilidad</h3>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+                {(servicesData["Contable"] || []).map((service) => (
+                  <div
+                    key={service.id + "Contable"}
+                    onClick={() => handleServiceClick({ ...service, area: "Contable" })}
+                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
+                      selectedService?.id === service.id && selectedService?.area === "Contable" ? 'ring-2 ring-accent' : ''
+                    }`}
+                  >
+                    <div className="flex flex-col items-center text-center">
+                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
+                        <i className={`${service.icono} text-xl`}></i>
+                      </div>
+                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Derecho Inmobiliario</h3>
+              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+                {(servicesData["DerechoInmobiliaria"] || []).map((service) => (
+                  <div
+                    key={service.id + "DerechoInmobiliaria"}
+                    onClick={() => handleServiceClick({ ...service, area: "DerechoInmobiliaria" })}
+                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
+                      selectedService?.id === service.id && selectedService?.area === "DerechoInmobiliaria" ? 'ring-2 ring-accent' : ''
                     }`}
                   >
                     <div className="flex flex-col items-center text-center">

@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import Inicio from './components/Inicio'
+import { Inicio, BannerTeam, BannerLeyes } from './components/Banner'
 import InicioLocal from './components/InicioLocal'
 import About from './components/About'
 import Team from './components/Team'
@@ -22,9 +22,15 @@ function App() {
             <Contact />
           </>
         } />
-        <Route path="/equipo" element={<Team />} />
+        <Route path="/equipo" element={
+          <>
+            <BannerTeam />
+            <Team />
+          </>
+        } />
         <Route path="/leyes" element={
           <>
+            <BannerLeyes />
             <Leyes />
           </>
         } />

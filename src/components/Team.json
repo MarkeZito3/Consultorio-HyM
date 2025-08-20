@@ -1,50 +1,50 @@
 {
-  "Area Legal": [
-    {
-			"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-      "nombre": "Willi Hernández Orellana",
-      "rol": "Abogado, especialista en sociedades, derecho tributario y derecho laboral",
-      "especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
-    },
-    {
-      "foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-      "nombre": "Esperanza [Apellido]",
-      "rol": "Abogada",
-      "especialidades": ["Litigios Civiles", "Derecho Familiar"]
-    },
-    {
-      "foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-			"nombre": "Sebastián [Apellido]",
-      "rol": "Abogado",
-      "especialidades": ["Defensa Laboral", "Demandas Civiles"]
-    },
-		{
-      "foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-			"nombre": "Willi Hernández Hijo",
-      "rol": "Abogado",
-      "especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
-    }
-  ],
-	"Area Contable": [
-		{
-			"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-			"nombre": "Roberto [Apellido]",
-			"rol": "Contador",
-			"especialidades": ["Contabilidad Financiera", "Auditoría", "Asesoría Fiscal"]
-		},
-		{
-			"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-			"nombre": "Boris [Apellido]",
-			"rol": "Contador",
-			"especialidades": ["Contabilidad de Costos", "Gestión Financiera"]
-		}
-	],
-	"Area Derecho Inmobiliario": [
-		{
-			"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
-			"nombre": "Elizabeth M.",
-			"rol": "Abogado Inmobiliario",
-			"especialidades": ["Litigios Inmobiliarios", "Desarrollo Urbano"]
-		}
-	]
+"Area Legal": [
+{
+	"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+	"nombre": "Willi Hernández Orellana",
+	"rol": "Abogado, especialista en sociedades, derecho tributario y derecho laboral",
+	"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
+},
+{
+	"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+	"nombre": "Esperanza [Apellido]",
+	"rol": "Abogada",
+	"especialidades": ["Litigios Civiles", "Derecho Familiar"]
+},
+{
+	"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+		"nombre": "Sebastián [Apellido]",
+	"rol": "Abogado",
+	"especialidades": ["Defensa Laboral", "Demandas Civiles"]
+},
+	{
+	"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+		"nombre": "Willi Hernández Hijo",
+	"rol": "Abogado",
+	"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
+}
+],
+"Area Contable": [
+	{
+		"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+		"nombre": "Roberto [Apellido]",
+		"rol": "Contador",
+		"especialidades": ["Contabilidad Financiera", "Auditoría", "Asesoría Fiscal"]
+	},
+	{
+		"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+		"nombre": "Boris [Apellido]",
+		"rol": "Contador",
+		"especialidades": ["Contabilidad de Costos", "Gestión Financiera"]
+	}
+],
+"Area Derecho Inmobiliario": [
+	{
+		"foto": "https://toppng.com/uploads/preview/ensando-especialmente-en-las-personas-con-movilidad-imagenes-de-personas-115628913400renbsc9lk.png",
+		"nombre": "Elizabeth M.",
+		"rol": "Abogado Inmobiliario",
+		"especialidades": ["Litigios Inmobiliarios", "Desarrollo Urbano"]
+	}
+]
 }

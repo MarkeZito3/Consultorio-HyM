@@ -68,7 +68,7 @@ function Header() {
         {/* Navegación */}
         <nav className={`flex-col md:flex md:flex-row flex-wrap justify-center w-full md:w-auto transition-all duration-300 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
           <Link to="/" className="mx-3 my-1 hover:text-accent transition" onClick={() => {setIsOpen(false); window.scrollTo(0, 0);}}>Inicio</Link>
-          <Link to="/" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
+          <Link to="/#SobreNosotros" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
             setIsOpen(false);
             if (window.location.pathname === "/") {
               const el = document.getElementById("SobreNosotros");

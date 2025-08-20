@@ -1,93 +1,150 @@
-[
-  {
-    "id": 1,
-    "titulo": "Leyes",
-    "descripcion": "Ofrecemos servicios legales integrales en diversas áreas del derecho. Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses. Contamos con amplia experiencia en litigios, contratos, derecho laboral y más.",
-    "icono": "fas fa-balance-scale",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 2,
-    "titulo": "Contabilidad",
-    "descripcion": "Servicios contables profesionales para empresas y particulares. Incluimos contabilidad general, declaraciones de impuestos, auditorías, análisis financiero y asesoría fiscal. Nuestros contadores certificados garantizan precisión y cumplimiento normativo en todos los procesos contables.",
-    "icono": "fas fa-file-invoice-dollar",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 3,
-    "titulo": "Derecho Inmobiliario",
-    "descripcion": "Especialistas en derecho inmobiliario y propiedad raíz. Asesoramos en compraventa de propiedades, arrendamientos, hipotecas, urbanismo y desarrollo inmobiliario. Protegemos sus inversiones inmobiliarias con servicios legales especializados y experiencia en el sector.",
-    "icono": "fas fa-house",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 4,
-    "titulo": "Consultoría Empresarial",
-    "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.",
-    "icono": "fas fa-chart-line",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 5,
-    "titulo": "Derecho Laboral",
-    "descripcion": "Servicios especializados en derecho laboral para empleadores y trabajadores. Asesoramos en contratos de trabajo, negociaciones colectivas, conflictos laborales, seguridad social y cumplimiento de normativas laborales. Protegemos sus derechos en el ámbito laboral.",
-    "icono": "fas fa-users",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 6,
-    "titulo": "Derecho Comercial",
-    "descripcion": "Asesoría legal especializada en derecho comercial y mercantil. Incluimos constitución de empresas, contratos comerciales, fusiones y adquisiciones, propiedad intelectual y resolución de conflictos comerciales. Facilitamos el crecimiento y protección de su negocio.",
-    "icono": "fas fa-briefcase",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 7,
-    "titulo": "Derecho de Familia",
-    "descripcion": "Servicios legales especializados en derecho de familia con sensibilidad y profesionalismo. Asesoramos en divorcios, custodia de menores, pensión alimenticia, adopciones y sucesiones. Resolvemos sus asuntos familiares con empatía y eficacia legal.",
-    "icono": "fas fa-heart",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 8,
-    "titulo": "Derecho Penal",
-    "descripcion": "Defensa penal especializada y representación legal en procesos penales. Nuestros abogados penalistas brindan asesoría en investigaciones, juicios penales, recursos y medidas cautelares. Protegemos sus derechos fundamentales en el sistema penal.",
-    "icono": "fas fa-gavel",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 9,
-    "titulo": "Derecho Tributario",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis massa nisi eu nulla.",
-    "icono": "fas fa-file-invoice-dollar",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 10,
-    "titulo": "Derecho Administrativo",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis massa nisi eu nulla.",
-    "icono": "fas fa-university",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 11,
-    "titulo": "Derecho Migratorio",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis massa nisi eu nulla.",
-    "icono": "fas fa-passport",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 12,
-    "titulo": "Derecho Civil (Aporte)",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis massa nisi eu nulla.",
-    "icono": "fas fa-balance-scale",
-    "color": "bg-secondary"
-  },
-  {
-    "id": 13,
-    "titulo": "Procesamiento Jurídico",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque euismod, urna eu tincidunt consectetur, nisi nisl aliquam enim, eget facilisis massa nisi eu nulla.",
-    "icono": "fas fa-gavel",
-    "color": "bg-secondary"
-  }
-]
+{
+  "Leyes": [
+    { 
+      "id": 1, 
+      "titulo": "Leyes", 
+      "descripcion": "Ofrecemos servicios legales integrales en diversas áreas del derecho. Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses. Contamos con amplia experiencia en litigios, contratos, derecho laboral y más.", 
+      "icono": "fas fa-balance-scale", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 5, 
+      "titulo": "Derecho Laboral", 
+      "descripcion": "Servicios especializados en derecho laboral para empleadores y trabajadores. Asesoramos en contratos de trabajo, negociaciones colectivas, conflictos laborales, seguridad social y cumplimiento de normativas laborales. Protegemos sus derechos en el ámbito laboral.", 
+      "icono": "fas fa-users", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 6, 
+      "titulo": "Derecho Comercial", 
+      "descripcion": "Asesoría legal especializada en derecho comercial y mercantil. Incluimos constitución de empresas, contratos comerciales, fusiones y adquisiciones, propiedad intelectual y resolución de conflictos comerciales. Facilitamos el crecimiento y protección de su negocio.", 
+      "icono": "fas fa-briefcase", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 7, 
+      "titulo": "Derecho de Familia", 
+      "descripcion": "Servicios legales especializados en derecho de familia con sensibilidad y profesionalismo. Asesoramos en divorcios, custodia de menores, pensión alimenticia, adopciones y sucesiones. Resolvemos sus asuntos familiares con empatía y eficacia legal.", 
+      "icono": "fas fa-heart", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 8, 
+      "titulo": "Derecho Penal", 
+      "descripcion": "Defensa penal especializada y representación legal en procesos penales. Nuestros abogados penalistas brindan asesoría en investigaciones, juicios penales, recursos y medidas cautelares. Protegemos sus derechos fundamentales en el sistema penal.", 
+      "icono": "fas fa-gavel", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 9, 
+      "titulo": "Derecho Tributario", 
+      "descripcion": "Asesoría en cumplimiento tributario, planificación fiscal y representación frente al Servicio de Impuestos Internos. Defendemos a empresas y particulares en auditorías, reclamaciones y procedimientos tributarios.", 
+      "icono": "fas fa-file-invoice-dollar", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 10, 
+      "titulo": "Derecho Administrativo", 
+      "descripcion": "Representación y asesoría en procedimientos administrativos frente a organismos públicos. Incluye licitaciones, permisos, concesiones, sanciones administrativas y recursos jerárquicos o de reposición.", 
+      "icono": "fas fa-university", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 11, 
+      "titulo": "Derecho Migratorio", 
+      "descripcion": "Asesoría integral en trámites migratorios, obtención de visas, regularización de residencia, nacionalización y defensa en procesos administrativos ante autoridades migratorias.", 
+      "icono": "fas fa-passport", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 12, 
+      "titulo": "Derecho Civil (Aporte)", 
+      "descripcion": "Asistencia en contratos civiles, responsabilidad civil, cobro de deudas, arrendamientos y conflictos entre particulares. Protegemos sus derechos y brindamos soluciones legales efectivas en el ámbito civil.", 
+      "icono": "fas fa-balance-scale", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 13, 
+      "titulo": "Procesamiento Jurídico", 
+      "descripcion": "Servicios de tramitación y gestión procesal, incluyendo presentación de demandas, recursos, escritos judiciales y representación en distintas instancias del sistema de justicia.", 
+      "icono": "fas fa-gavel", 
+      "color": "bg-secondary" 
+    }
+  ],
+  "Contable": [
+    { "id": 2, "titulo": "Contabilidad", "descripcion": "Servicios contables profesionales para empresas y particulares. Incluimos contabilidad general, declaraciones de impuestos, auditorías, análisis financiero y asesoría fiscal. Nuestros contadores certificados garantizan precisión y cumplimiento normativo en todos los procesos contables.", "icono": "fas fa-file-invoice-dollar", "color": "bg-secondary" },
+    { "id": 4, "titulo": "Consultoría Empresarial", "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.", "icono": "fas fa-chart-line", "color": "bg-secondary" }
+  ],
+  "DerechoInmobiliaria": [
+    { 
+      "id": 3, 
+      "titulo": "Derecho Inmobiliario", 
+      "descripcion": "Ofrecemos asesoría integral en derecho inmobiliario y propiedad raíz. Brindamos acompañamiento en todas las etapas de las operaciones sobre bienes raíces, incluyendo la redacción, revisión y tramitación de escrituras, regularizaciones y gestiones ante instituciones públicas. Protegemos sus inversiones inmobiliarias con experiencia, seguridad jurídica y soluciones personalizadas.", 
+      "icono": "fas fa-building", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 14, 
+      "titulo": "Escritura de Compra y Venta", 
+      "descripcion": "Redacción y tramitación de escrituras de compraventa para garantizar la validez legal de las operaciones sobre propiedades, protegiendo tanto a comprador como vendedor.", 
+      "icono": "fas fa-file-signature", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 15, 
+      "titulo": "Escritura de Porciones de Derechos", 
+      "descripcion": "Asesoría en escrituras que regulan la cesión o transferencia de porcentajes de derechos sobre un inmueble, permitiendo una correcta distribución de la propiedad.", 
+      "icono": "fas fa-share-square", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 16, 
+      "titulo": "Escritura de Fusiones", 
+      "descripcion": "Tramitación de escrituras de fusión de propiedades o derechos, facilitando la unificación de terrenos o bienes raíces bajo una sola titularidad.", 
+      "icono": "fas fa-object-group", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 17, 
+      "titulo": "Subdivisiones", 
+      "descripcion": "Gestión legal y administrativa de subdivisiones de terrenos, ajustándonos a la normativa urbanística y regulatoria vigente.", 
+      "icono": "fas fa-vector-square", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 18, 
+      "titulo": "Adjudicaciones", 
+      "descripcion": "Asesoría en procesos de adjudicación de bienes raíces en herencias, sociedades conyugales y otras situaciones legales que impliquen división de patrimonios.", 
+      "icono": "fas fa-balance-scale", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 19, 
+      "titulo": "Posesiones Efectivas", 
+      "descripcion": "Tramitamos posesiones efectivas tanto testadas como intestadas, permitiendo la correcta transferencia de bienes raíces a los herederos legales.", 
+      "icono": "fas fa-scroll", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 20, 
+      "titulo": "Regularizaciones ante el Ministerio de Bienes Nacionales", 
+      "descripcion": "Asesoría y tramitación en procesos de regularización de la propiedad raíz para inscribir terrenos o viviendas que carecen de títulos válidos.", 
+      "icono": "fas fa-university", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 21, 
+      "titulo": "Reglamentos de Servidumbre", 
+      "descripcion": "Redacción y establecimiento de reglamentos de servidumbre, regulando el uso compartido de terrenos o accesos, en conformidad con la legislación vigente.", 
+      "icono": "fas fa-road", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 22, 
+      "titulo": "Derecho de Aprovechamiento de Agua", 
+      "descripcion": "Asesoramos en la constitución, transferencia y regularización de derechos de aprovechamiento de aguas, esenciales para actividades agrícolas, industriales y residenciales.", 
+      "icono": "fas fa-tint", 
+      "color": "bg-secondary" 
+    }
+  ]
+}

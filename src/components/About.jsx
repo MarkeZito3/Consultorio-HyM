@@ -22,14 +22,14 @@ function About() {
           <div id='SobreNosotros' className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
             <h2 className="text-3xl font-bold text-primary mb-4 header-font">Sobre Nosotros</h2>
             <p className="text-gray-700 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem dolore expedita voluptates dicta quaerat nobis numquam, placeat, doloribus et quasi unde aliquam tenetur minima eius eligendi impedit repellat consequuntur.
+              Somos CONSULTORES HERNANDEZ & ASOCIADOS, una firma liderada por Willi Hernandez Orellana y Elizabeth Morales. Nos dedicamos a ofrecer soluciones legales y contables integrales, con un compromiso inquebrantable hacia la excelencia y la satisfacción del cliente.
             </p>
             <p className="text-gray-700 mb-4">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem dolore expedita voluptates dicta quaerat nobis numquam, placeat, doloribus et quasi unde aliquam tenetur minima eius eligendi impedit repellat consequuntur.
+              Estamos especializados en auditoría, contabilidad y defensa en Derecho Tributario, Laboral, Penal, Familia, Comercial, Civil y VIF. Además, brindamos asesoría financiera y jurídica personalizada, cubriendo sus necesidades.
             </p>
-            <p className="text-gray-700">
+            {/* <p className="text-gray-700">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem dolore expedita voluptates dicta quaerat nobis numquam, placeat, doloribus et quasi unde aliquam tenetur minima eius eligendi impedit repellat consequuntur.
-            </p>
+            </p> */}
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="flex flex-col md:flex-row gap-8 items-center">
@@ -69,89 +69,28 @@ function About() {
             <h2 className="text-3xl font-bold text-center text-primary mb-4 header-font">Servicios</h2>
             <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
             {/* Grid de servicios */}
-            <div className="">
-              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Leyes</h3>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-                {(servicesData["Leyes"] || []).map((service) => (
-                  <div
-                    key={service.id + "Leyes"}
-                    onClick={() => handleServiceClick({ ...service, area: "Leyes" })}
-                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
-                      selectedService?.id === service.id && selectedService?.area === "Leyes" ? 'ring-2 ring-accent' : ''
-                    }`}
-                  >
-                    <div className="flex flex-col items-center text-center">
-                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
-                        <i className={`${service.icono} text-xl`}></i>
-                      </div>
-                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Contabilidad</h3>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-                {(servicesData["Contable"] || []).map((service) => (
-                  <div
-                    key={service.id + "Contable"}
-                    onClick={() => handleServiceClick({ ...service, area: "Contable" })}
-                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
-                      selectedService?.id === service.id && selectedService?.area === "Contable" ? 'ring-2 ring-accent' : ''
-                    }`}
-                  >
-                    <div className="flex flex-col items-center text-center">
-                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
-                        <i className={`${service.icono} text-xl`}></i>
-                      </div>
-                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <h3 className="text-2xl font-bold text-primary mb-4 header-font">Derecho Inmobiliario</h3>
-              <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
-                {(servicesData["DerechoInmobiliaria"] || []).map((service) => (
-                  <div
-                    key={service.id + "DerechoInmobiliaria"}
-                    onClick={() => handleServiceClick({ ...service, area: "DerechoInmobiliaria" })}
-                    className={`practice-area bg-white p-4 rounded-xl shadow-md border-l-4 border-secondary cursor-pointer transition-all duration-300 hover:shadow-lg hover:scale-105 ${
-                      selectedService?.id === service.id && selectedService?.area === "DerechoInmobiliaria" ? 'ring-2 ring-accent' : ''
-                    }`}
-                  >
-                    <div className="flex flex-col items-center text-center">
-                      <div className={`${service.color} text-white rounded-lg p-3 mb-3`}>
-                        <i className={`${service.icono} text-xl`}></i>
-                      </div>
-                      <h3 className="text-sm lg:text-base font-bold text-primary">{service.titulo}</h3>
-                    </div>
-                  </div>
-                ))}
-              </div>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+              <Link to ="/leyes" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
+                <h2 className='font-semibold'>Leyes</h2>
+                <p className="mt-2 text-sm text-gray-200">
+                  Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses.
+                </p>
+              </Link>
+              <Link to = "/contabilidad" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
+                <h2 className='font-semibold'>Contabilidad</h2>
+                <p className="mt-2 text-sm text-gray-200">
+                  Servicios contables profesionales para empresas y particulares.
+                </p>
+              </Link>
+              <Link to = "/derecho_inmobiliario" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
+                <h2 className='font-semibold'>Derecho Inmobiliario</h2>
+                <p className="mt-2 text-sm text-gray-200">
+                  Ofrecemos asesoría integral en derecho inmobiliario y propiedad raíz.
+                </p>
+              </Link>
             </div>
-            {/* Panel de descripción eliminado de aquí */}
           </div>
         </section>
-        {/* Panel de descripción flotante */}
-        {selectedService && (
-          <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40 animate-fade-in">
-            <div className="bg-white p-6 rounded-xl shadow-lg border-l-4 border-accent max-w-md w-full relative animate-fade-in">
-              <button
-                onClick={() => setSelectedService(null)}
-                className="absolute top-2 right-2 text-accent hover:text-primary font-bold text-xl"
-                aria-label="Cerrar"
-              >
-                ×
-              </button>
-              <div className="flex items-center mb-4">
-                <div className={`${selectedService.color} text-white rounded-lg p-3 mr-4`}>
-                  <i className={`${selectedService.icono} text-xl`}></i>
-                </div>
-                <h3 className="text-xl font-bold text-primary">{selectedService.titulo}</h3>
-              </div>
-              <p className="text-gray-700 leading-relaxed">{selectedService.descripcion}</p>
-            </div>
-          </div>
-        )}
       </div>
     </section>
   )

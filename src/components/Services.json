@@ -1,13 +1,6 @@
 {
   "Leyes": [
     { 
-      "id": 1, 
-      "titulo": "Leyes", 
-      "descripcion": "Ofrecemos servicios legales integrales en diversas áreas del derecho. Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses. Contamos con amplia experiencia en litigios, contratos, derecho laboral y más.", 
-      "icono": "fas fa-balance-scale", 
-      "color": "bg-secondary" 
-    },
-    { 
       "id": 5, 
       "titulo": "Derecho Laboral", 
       "descripcion": "Servicios especializados en derecho laboral para empleadores y trabajadores. Asesoramos en contratos de trabajo, negociaciones colectivas, conflictos laborales, seguridad social y cumplimiento de normativas laborales. Protegemos sus derechos en el ámbito laboral.", 
@@ -72,17 +65,9 @@
     }
   ],
   "Contable": [
-    { "id": 2, "titulo": "Contabilidad", "descripcion": "Servicios contables profesionales para empresas y particulares. Incluimos contabilidad general, declaraciones de impuestos, auditorías, análisis financiero y asesoría fiscal. Nuestros contadores certificados garantizan precisión y cumplimiento normativo en todos los procesos contables.", "icono": "fas fa-file-invoice-dollar", "color": "bg-secondary" },
     { "id": 4, "titulo": "Consultoría Empresarial", "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.", "icono": "fas fa-chart-line", "color": "bg-secondary" }
   ],
   "DerechoInmobiliaria": [
-    { 
-      "id": 3, 
-      "titulo": "Derecho Inmobiliario", 
-      "descripcion": "Ofrecemos asesoría integral en derecho inmobiliario y propiedad raíz. Brindamos acompañamiento en todas las etapas de las operaciones sobre bienes raíces, incluyendo la redacción, revisión y tramitación de escrituras, regularizaciones y gestiones ante instituciones públicas. Protegemos sus inversiones inmobiliarias con experiencia, seguridad jurídica y soluciones personalizadas.", 
-      "icono": "fas fa-building", 
-      "color": "bg-secondary" 
-    },
     { 
       "id": 14, 
       "titulo": "Escritura de Compra y Venta", 

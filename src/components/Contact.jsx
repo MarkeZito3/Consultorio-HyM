@@ -7,7 +7,7 @@ function Contact() {
         <h2 className="text-3xl font-bold text-center mb-4 header-font">Contacto</h2>
         <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
         
-  {/* Sección de contacto eliminada, ahora en el Footer */}
+        {/* Sección de contacto eliminada, ahora en el Footer */}
         <div className="flex flex-col items-center mt-12">
           <div className="flex items-center mb-6 gap-4 flex-wrap justify-center">
             <span className="text-xl font-semibold">Contáctanos vía WhatsApp:</span>
@@ -17,7 +17,10 @@ function Contact() {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded flex items-center gap-2 transition"
             >
-              <i className="fab fa-whatsapp text-2xl"></i> +56 9 9657 7506
+              <i className="fab fa-whatsapp text-2xl"></i>
+              <span>
+                +56 9 9657 7506 <span className="text-sm font-normal italic">(Willi)</span>
+              </span>
             </a>
             <a
               href="https://wa.me/56974793920?text=Hola%2C%20mi%20consulta%20es..."
@@ -25,7 +28,10 @@ function Contact() {
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded flex items-center gap-2 transition"
             >
-              <i className="fab fa-whatsapp text-2xl"></i> +56 9 7479 3920
+              <i className="fab fa-whatsapp text-2xl"></i>
+              <span>
+                +56 9 7479 3920 <span className="text-sm font-normal italic">(Elizabeth)</span>
+              </span>
             </a>
           </div>
           <div>

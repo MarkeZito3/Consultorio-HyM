@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './components/Header'
-import { Inicio, BannerTeam, BannerLeyes } from './components/Banner'
-import InicioLocal from './components/InicioLocal'
+import { Inicio, BannerTeam, BannerLeyes, InicioLocal, BannerDerechoInmobiliario, BannerContabilidad } from './components/Banner'
 import About from './components/About'
 import Team from './components/Team'
 import Contact from './components/Contact'
@@ -34,8 +33,17 @@ function App() {
             <Leyes />
           </>
         } />
-        <Route path="/contabilidad" element={<div className='Contabilidad'><h2 className="text-3xl font-bold text-primary mb-4 header-font">Contabilidad</h2><p>Contenido de Contabilidad...</p></div>} />
-        <Route path="/derecho_inmobiliario" element={<div className='DerechoInmobiliario'><h2 className="text-3xl font-bold text-primary mb-4 header-font">Derecho Inmobiliario</h2><p>Contenido de Derecho Inmobiliario...</p></div>} />
+        <Route path="/contabilidad" element={
+          <>
+            <BannerContabilidad />
+          </>
+        } />
+        <Route path="/derecho_inmobiliario" element=
+        {
+          <>
+            <BannerDerechoInmobiliario />
+          </>
+        } />
       </Routes>
       <Footer />
     </Router>

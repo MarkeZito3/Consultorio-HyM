@@ -56,7 +56,7 @@ function Header() {
               <img src={logo} alt="Logo" className="w-16 h-16 object-contain" />
               {/* <i className="fas fa-balance-scale text-xl"></i> */}
             </div>
-            <h1 className={`${fontSizeLogo} font-bold header-font`}>Consultorio Hernández & Asociados</h1>
+            <h1 className={`${fontSizeLogo} font-bold header-font`}>Consultores Hernández & Asociados</h1>
           </Link>
           {/* Botón hamburguesa solo en celulares */}
           <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)}>

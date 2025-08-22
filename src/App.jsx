@@ -6,7 +6,7 @@ import Team from './components/Team'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Leyes, Contabilidad, DerechoInmobiliario } from './components/Services-pages'
+import { Leyes, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
 
 function App() {
   return (
@@ -37,6 +37,12 @@ function App() {
           <>
             <BannerContabilidad />
             <Contabilidad />
+          </>
+        } />
+        <Route path="/Ejemplo" element={
+          <>
+            <BannerContabilidad />
+            <Ejemplo />
           </>
         } />
         <Route path="/derecho_inmobiliario" element=

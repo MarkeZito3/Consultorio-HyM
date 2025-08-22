@@ -65,7 +65,50 @@
     }
   ],
   "Contable": [
-    { "id": 4, "titulo": "Consultoría Empresarial", "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.", "icono": "fas fa-chart-line", "color": "bg-secondary" }
+    { "id": 1, "titulo": "Consultoría Empresarial", "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.", "icono": "fas fa-chart-line", "color": "bg-secondary"},
+    { "id": 1, "titulo": "inicio de actividades", "descripcion": "-", "icono": "fas fa-play-circle", "color": "bg-secondary" },
+    { "id": 2, "titulo": "términos de giro", "descripcion": "-", "icono": "fas fa-stop-circle", "color": "bg-secondary" },
+    { "id": 3, "titulo": "confeccion de imposiciones de previred", "descripcion": "-", "icono": "fas fa-file-invoice-dollar", "color": "bg-secondary" },
+    { "id": 4, "titulo": "confección sociedes, empresas en un día", "descripcion": "-", "icono": "fas fa-building", "color": "bg-secondary" },
+    { "id": 5, "titulo": "modificaciones de sociedades", "descripcion": "-", "icono": "fas fa-edit", "color": "bg-secondary" },
+    { "id": 6, "titulo": "tramitación de licencias médicas", "descripcion": "-", "icono": "fas fa-notes-medical", "color": "bg-secondary" },
+    { "id": 7, "titulo": "certificado de cotizaciones", "descripcion": "-", "icono": "fas fa-certificate", "color": "bg-secondary" },
+    { "id": 8, "titulo": "contratos de trabajo", "descripcion": "-", "icono": "fas fa-file-contract", "color": "bg-secondary" },
+    { "id": 9, "titulo": "confección de finiquitos", "descripcion": "-", "icono": "fas fa-file-signature", "color": "bg-secondary" },
+    { "id": 10, "titulo": "liquidaciones de sueldo", "descripcion": "-", "icono": "fas fa-money-check-alt", "color": "bg-secondary" },
+    { "id": 11, "titulo": "certificado de antigüedad", "descripcion": "-", "icono": "fas fa-id-badge", "color": "bg-secondary" },
+    { "id": 12, "titulo": "anexos de contratos", "descripcion": "-", "icono": "fas fa-paperclip", "color": "bg-secondary" },
+    { "id": 13, "titulo": "libro de remuneraciones", "descripcion": "-", "icono": "fas fa-book", "color": "bg-secondary" },
+    { "id": 14, "titulo": "tramitación de Formulario 22 (Renta)", "descripcion": "-", "icono": "fas fa-file-invoice", "color": "bg-secondary" },
+    { "id": 15, "titulo": "tramitación de Formulario 29 (IVA)", "descripcion": "-", "icono": "fas fa-file-invoice-dollar", "color": "bg-secondary" },
+    { "id": 16, "titulo": "tramitación de Formulario F-30", "descripcion": "-", "icono": "fas fa-file-alt", "color": "bg-secondary" },
+    { "id": 17, "titulo": "tramitación de Formulario F-30-1", "descripcion": "-", "icono": "fas fa-file-alt", "color": "bg-secondary" },
+    { "id": 18, "titulo": "solicitud de patente comerciales", "descripcion": "-", "icono": "fas fa-id-card", "color": "bg-secondary" },
+    { "id": 19, "titulo": "postulación a proyectos", "descripcion": "-", "icono": "fas fa-lightbulb", "color": "bg-secondary" },
+    { "id": 20, "titulo": "aviso de venta de vehículos", "descripcion": "-", "icono": "fas fa-car", "color": "bg-secondary" },
+    { "id": 21, "titulo": "termino de giro", "descripcion": "-", "icono": "fas fa-stop-circle", "color": "bg-secondary" },
+    { "id": 22, "titulo": "planificación tributaria", "descripcion": "-", "icono": "fas fa-calculator", "color": "bg-secondary" },
+    { "id": 23, "titulo": "planificación financiera", "descripcion": "-", "icono": "fas fa-chart-line", "color": "bg-secondary" },
+    { "id": 24, "titulo": "peticiones administrativas", "descripcion": "-", "icono": "fas fa-tasks", "color": "bg-secondary" },
+    { "id": 25, "titulo": "informe de peritajes contables", "descripcion": "-", "icono": "fas fa-file-search", "color": "bg-secondary" },
+    { "id": 26, "titulo": "auditoría intera", "descripcion": "-", "icono": "fas fa-user-check", "color": "bg-secondary" },
+    { "id": 27, "titulo": "auditoría externa", "descripcion": "-", "icono": "fas fa-users", "color": "bg-secondary" },
+    { "id": 28, "titulo": "evaluación de proyectos", "descripcion": "-", "icono": "fas fa-tasks", "color": "bg-secondary" },
+    { "id": 29, "titulo": "tramitación de página de trabajo (aviso de término de contrato)", "descripcion": "-", "icono": "fas fa-briefcase", "color": "bg-secondary" },
+    { "id": 30, "titulo": "comparendo de reclamaciones laborales ante la Dirección del Trabajo", "descripcion": "-", "icono": "fas fa-gavel", "color": "bg-secondary" },
+    { "id": 31, "titulo": "comparendo del a fiscalisación de impuestos internos", "descripcion": "-", "icono": "fas fa-balance-scale", "color": "bg-secondary" },
+    { "id": 32, "titulo": "respuestas a reclamaciones ante el SII", "descripcion": "-", "icono": "fas fa-reply", "color": "bg-secondary" },
+    { "id": 33, "titulo": "defensa de contribuyentes ante el SII", "descripcion": "-", "icono": "fas fa-shield-alt", "color": "bg-secondary" },
+    { "id": 34, "titulo": "presentación de reclamaciones ante el SII", "descripcion": "-", "icono": "fas fa-file-upload", "color": "bg-secondary" },
+    { "id": 35, "titulo": "defensa de contribuyentes ante el Tribunal Tributario", "descripcion": "-", "icono": "fas fa-balance-scale-right", "color": "bg-secondary" },
+    { "id": 36, "titulo": "recursos de nulidad de derecho público", "descripcion": "-", "icono": "fas fa-ban", "color": "bg-secondary" },
+    { "id": 37, "titulo": "reclamaciones por avaluos fiscales", "descripcion": "-", "icono": "fas fa-home", "color": "bg-secondary" },
+    { "id": 38, "titulo": "solicitud de cambios de titular de bien raiz ante el SII", "descripcion": "-", "icono": "fas fa-exchange-alt", "color": "bg-secondary" },
+    { "id": 39, "titulo": "solicitud de asignación de rol de avalúo fiscal", "descripcion": "-", "icono": "fas fa-list-ol", "color": "bg-secondary" },
+    { "id": 40, "titulo": "presentacion de condonaciones tributarias", "descripcion": "-", "icono": "fas fa-hand-holding-usd", "color": "bg-secondary" },
+    { "id": 41, "titulo": "presentacion de prescripciones tributarias", "descripcion": "-", "icono": "fas fa-prescription-bottle-alt", "color": "bg-secondary" },
+    { "id": 42, "titulo": "presentacion de convenios ante la Tesorería General de la República", "descripcion": "-", "icono": "fas fa-handshake", "color": "bg-secondary" },
+    { "id": 43, "titulo": "solicitar prescripcion y abandono de procedimientos ante la Tesorería General de la República", "descripcion": "-", "icono": "fas fa-file-medical-alt", "color": "bg-secondary" }
   ],
   "DerechoInmobiliaria": [
     { 
@@ -129,6 +172,78 @@
       "titulo": "Derecho de Aprovechamiento de Agua", 
       "descripcion": "Asesoramos en la constitución, transferencia y regularización de derechos de aprovechamiento de aguas, esenciales para actividades agrícolas, industriales y residenciales.", 
       "icono": "fas fa-tint", 
+      "color": "bg-secondary" 
+    }
+  ],
+  "Ejemplo" : [
+    { 
+      "id": 1, 
+      "titulo": "Constitución y Gestión Empresarial", 
+      "descripcion": "Inicio de actividades • Confección de sociedades, empresas en un día • Modificaciones de sociedades • Términos de giro • Solicitud de patentes comerciales", 
+      "icono": "fas fa-building", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 2, 
+      "titulo": "Servicios Laborales", 
+      "descripcion": "Confección de imposiciones de Previred • Certificado de cotizaciones • Contratos de trabajo • Confección de finiquitos • Liquidaciones de sueldo • Certificado de antigüedad • Anexos de contratos • Libro de remuneraciones • Tramitación de licencias médicas • Tramitación de página de trabajo (aviso de término de contrato)", 
+      "icono": "fas fa-users-cog", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 3, 
+      "titulo": "Declaraciones Tributarias", 
+      "descripcion": "Tramitación de Formulario 22 (Renta) • Tramitación de Formulario 29 (IVA) • Tramitación de Formulario F-30 • Tramitación de Formulario F-30-1", 
+      "icono": "fas fa-file-invoice", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 4, 
+      "titulo": "Planificación y Consultoría", 
+      "descripcion": "Planificación tributaria • Planificación financiera • Postulación a proyectos • Evaluación de proyectos • Informe de peritajes contables • Auditoría interna • Auditoría externa", 
+      "icono": "fas fa-chart-line", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 5, 
+      "titulo": "Defensa ante SII", 
+      "descripcion": "Comparendo de fiscalización de impuestos internos • Respuestas a reclamaciones ante el SII • Defensa de contribuyentes ante el SII • Presentación de reclamaciones ante el SII • Presentación de condonaciones tributarias • Presentación de prescripciones tributarias", 
+      "icono": "fas fa-shield-alt", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 6, 
+      "titulo": "Defensa ante Tribunales", 
+      "descripcion": "Defensa de contribuyentes ante el Tribunal Tributario • Recursos de nulidad de derecho público", 
+      "icono": "fas fa-gavel", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 7, 
+      "titulo": "Trámites Inmobiliarios Tributarios", 
+      "descripcion": "Reclamaciones por avalúos fiscales • Solicitud de cambios de titular de bien raíz ante el SII • Solicitud de asignación de rol de avalúo fiscal", 
+      "icono": "fas fa-home", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 8, 
+      "titulo": "Servicios ante Tesorería General", 
+      "descripcion": "Presentación de convenios ante la Tesorería General de la República • Solicitar prescripción y abandono de procedimientos ante la Tesorería General de la República", 
+      "icono": "fas fa-money-check-alt", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 9, 
+      "titulo": "Trámites Laborales ante Dirección del Trabajo", 
+      "descripcion": "Comparendo de reclamaciones laborales ante la Dirección del Trabajo", 
+      "icono": "fas fa-handshake", 
+      "color": "bg-secondary" 
+    },
+    { 
+      "id": 10, 
+      "titulo": "Servicios Diversos", 
+      "descripcion": "Peticiones administrativas • Aviso de venta de vehículos", 
+      "icono": "fas fa-cogs", 
       "color": "bg-secondary" 
     }
   ]

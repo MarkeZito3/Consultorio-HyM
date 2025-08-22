@@ -68,13 +68,13 @@ function Header() {
         {/* Navegación */}
         <nav className={`flex-col md:flex md:flex-row flex-wrap justify-center w-full md:w-auto transition-all duration-300 ${isOpen ? 'flex' : 'hidden'} md:flex`}>
           <Link to="/" className="mx-3 my-1 hover:text-accent transition" onClick={() => {setIsOpen(false); window.scrollTo(0, 0);}}>Inicio</Link>
-          <Link to="/#SobreNosotros" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
+          <Link to="/" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
             setIsOpen(false);
             if (window.location.pathname === "/") {
               const el = document.getElementById("SobreNosotros");
               if (el) el.scrollIntoView({ behavior: "smooth" });
             }
-          }}>Sobre Nosotros</Link>
+          }}>Quienes Somos</Link>
           <div className="relative mx-3 my-1" ref={dropdownRef}>
             <button
               className="hover:text-accent transition cursor-pointer flex items-center focus:outline-none"

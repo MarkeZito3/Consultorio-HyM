@@ -9,7 +9,7 @@ function Servicios({ serviceName, servicesData, handleServiceClick, selectedServ
         <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
         {/* Grid de servicios */}
         <div className="">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
+          <div className="grid grid-cols-3 lg:grid-cols-5 gap-4 mb-8">
             {(servicesData[serviceName] || []).map((service) => (
               <div
                 key={service.id + serviceName}
@@ -99,6 +99,24 @@ export function DerechoInmobiliario() {
     <div className='DerechoInmobiliario animate-fade-in'>
       <Servicios
         serviceName="DerechoInmobiliaria"
+        servicesData={servicesData}
+        handleServiceClick={handleServiceClick}
+        selectedService={selectedService}
+        setSelectedService={setSelectedService}
+      />
+    </div>
+  );
+}
+
+export function Ejemplo() {
+  const [selectedService, setSelectedService] = useState(null);
+  const handleServiceClick = (service) => {
+    setSelectedService(selectedService?.id === service.id ? null : service);
+  };
+  return (
+    <div className='Ejemplo animate-fade-in'>
+      <Servicios
+        serviceName="Ejemplo"
         servicesData={servicesData}
         handleServiceClick={handleServiceClick}
         selectedService={selectedService}

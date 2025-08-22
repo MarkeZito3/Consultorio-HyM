@@ -20,16 +20,13 @@ function About() {
       <div className="container mx-auto">
         <div className="flex flex-col md:flex-row items-center py-16 px-4">
           <div id='SobreNosotros' className="md:w-1/2 mb-10 md:mb-0 md:pr-10">
-            <h2 className="text-3xl font-bold text-primary mb-4 header-font">Sobre Nosotros</h2>
+            <h2 className="text-3xl font-bold text-primary mb-4 header-font">¿Quienes Somos?</h2>
             <p className="text-gray-700 mb-4">
               Somos CONSULTORES HERNANDEZ & ASOCIADOS, una firma liderada por Willi Hernandez Orellana y Elizabeth Morales. Nos dedicamos a ofrecer soluciones legales y contables integrales, con un compromiso inquebrantable hacia la excelencia y la satisfacción del cliente.
             </p>
             <p className="text-gray-700 mb-4">
               Estamos especializados en auditoría, contabilidad y defensa en Derecho Tributario, Laboral, Penal, Familia, Comercial, Civil y VIF. Además, brindamos asesoría financiera y jurídica personalizada, cubriendo sus necesidades.
             </p>
-            {/* <p className="text-gray-700">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia quidem dolore expedita voluptates dicta quaerat nobis numquam, placeat, doloribus et quasi unde aliquam tenetur minima eius eligendi impedit repellat consequuntur.
-            </p> */}
           </div>
           <div className="md:w-1/2 flex justify-center">
             <div className="flex flex-col md:flex-row gap-8 items-center">
@@ -42,7 +39,7 @@ function About() {
                     alt="Willi Hernández Orellana" 
                   />
                 </div>
-                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-white py-2 px-4 rounded-lg shadow-lg text-sm font-semibold">
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent dark:text-dark py-2 px-4 rounded-lg shadow-lg text-sm font-bold">
                   Willi Hernández Orellana
                 </div>
               </div>
@@ -56,7 +53,7 @@ function About() {
                     alt="Elizabeth Morales" 
                   />
                 </div>
-                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent text-white py-2 px-4 rounded-lg shadow-lg text-sm font-semibold">
+                <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent dark:text-dark py-2 px-4 rounded-lg shadow-lg text-sm font-bold">
                   Elizabeth Morales
                 </div>
               </div>

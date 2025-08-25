@@ -6,7 +6,8 @@
       "ruta": "derecho-laboral",
       "descripcion": "Servicios especializados en derecho laboral para empleadores y trabajadores. Asesoramos en contratos de trabajo, negociaciones colectivas, conflictos laborales, seguridad social y cumplimiento de normativas laborales. Protegemos sus derechos en el ámbito laboral.",
       "icono": "fas fa-users",
-      "color": "bg-secondary"
+      "color": "bg-secondary",
+      "foto" : "derecho-laboral.png"
     },
     {
       "id": 6,
@@ -84,7 +85,7 @@
     },
     {
       "id": 2,
-      "titulo": "Inicio de actividades",
+      "titulo": "Inicio de Actividades",
       "ruta": "inicio-actividades",
       "descripcion": "-",
       "icono": "fas fa-play-circle",
@@ -92,7 +93,7 @@
     },
     {
       "id": 3,
-      "titulo": "Términos de giro",
+      "titulo": "Términos de Giro",
       "ruta": "terminos-giro",
       "descripcion": "-",
       "icono": "fas fa-stop-circle",
@@ -100,7 +101,7 @@
     },
     {
       "id": 4,
-      "titulo": "Confección de imposiciones de previred",
+      "titulo": "Confección de Imposiciones de PREVIRED",
       "ruta": "imposiciones-previred",
       "descripcion": "-",
       "icono": "fas fa-file-invoice-dollar",
@@ -108,7 +109,7 @@
     },
     {
       "id": 5,
-      "titulo": "Confección sociedades, empresas en un día",
+      "titulo": "Confección Sociedades, Empresas en un Día",
       "ruta": "sociedades-empresas",
       "descripcion": "-",
       "icono": "fas fa-building",
@@ -116,7 +117,7 @@
     },
     {
       "id": 6,
-      "titulo": "Modificaciones de sociedades",
+      "titulo": "Modificaciones de Sociedades",
       "ruta": "modificaciones-sociedades",
       "descripcion": "-",
       "icono": "fas fa-edit",
@@ -124,7 +125,7 @@
     },
     {
       "id": 7,
-      "titulo": "Tramitación de licencias médicas",
+      "titulo": "Tramitación de Licencias Médicas",
       "ruta": "licencias-medicas",
       "descripcion": "-",
       "icono": "fas fa-notes-medical",
@@ -132,7 +133,7 @@
     },
     {
       "id": 8,
-      "titulo": "Certificado de cotizaciones",
+      "titulo": "Certificado de Cotizaciones",
       "ruta": "certificado-cotizaciones",
       "descripcion": "-",
       "icono": "fas fa-certificate",
@@ -140,7 +141,7 @@
     },
     {
       "id": 9,
-      "titulo": "Contratos de trabajo",
+      "titulo": "Contratos de Trabajo",
       "ruta": "contratos-trabajo",
       "descripcion": "-",
       "icono": "fas fa-file-contract",
@@ -148,7 +149,7 @@
     },
     {
       "id": 10,
-      "titulo": "Confección de finiquitos",
+      "titulo": "Confección de Finiquitos",
       "ruta": "finiquitos",
       "descripcion": "-",
       "icono": "fas fa-file-signature",
@@ -156,7 +157,7 @@
     },
     {
       "id": 11,
-      "titulo": "Liquidaciones de sueldo",
+      "titulo": "Liquidaciones de Sueldo",
       "ruta": "liquidaciones-sueldo",
       "descripcion": "-",
       "icono": "fas fa-money-check-alt",
@@ -164,7 +165,7 @@
     },
     {
       "id": 12,
-      "titulo": "Certificado de antigüedad",
+      "titulo": "Certificado de Antigüedad",
       "ruta": "certificado-antiguedad",
       "descripcion": "-",
       "icono": "fas fa-id-badge",
@@ -172,7 +173,7 @@
     },
     {
       "id": 13,
-      "titulo": "Anexos de contratos",
+      "titulo": "Anexos de Contratos",
       "ruta": "anexos-contratos",
       "descripcion": "-",
       "icono": "fas fa-paperclip",
@@ -220,7 +221,7 @@
     },
     {
       "id": 19,
-      "titulo": "Solicitud de patente comerciales",
+      "titulo": "Solicitud de Patente Comerciales",
       "ruta": "patente-comerciales",
       "descripcion": "-",
       "icono": "fas fa-id-card",
@@ -228,7 +229,7 @@
     },
     {
       "id": 20,
-      "titulo": "Postulación a proyectos",
+      "titulo": "Postulación a Proyectos",
       "ruta": "postulacion-proyectos",
       "descripcion": "-",
       "icono": "fas fa-lightbulb",
@@ -236,7 +237,7 @@
     },
     {
       "id": 21,
-      "titulo": "Aviso de venta de vehículos",
+      "titulo": "Aviso de Venta de Vehículos",
       "ruta": "aviso-venta-vehiculos",
       "descripcion": "-",
       "icono": "fas fa-car",
@@ -244,7 +245,7 @@
     },
     {
       "id": 22,
-      "titulo": "Término de giro",
+      "titulo": "Término de Giro",
       "ruta": "termino-giro",
       "descripcion": "-",
       "icono": "fas fa-stop-circle",
@@ -252,7 +253,7 @@
     },
     {
       "id": 23,
-      "titulo": "Planificación tributaria",
+      "titulo": "Planificación Tributaria",
       "ruta": "planificacion-tributaria",
       "descripcion": "-",
       "icono": "fas fa-calculator",
@@ -260,7 +261,7 @@
     },
     {
       "id": 24,
-      "titulo": "Planificación financiera",
+      "titulo": "Planificación Financiera",
       "ruta": "planificacion-financiera",
       "descripcion": "-",
       "icono": "fas fa-chart-line",
@@ -268,7 +269,7 @@
     },
     {
       "id": 25,
-      "titulo": "Peticiones administrativas",
+      "titulo": "Peticiones Administrativas",
       "ruta": "peticiones-administrativas",
       "descripcion": "-",
       "icono": "fas fa-tasks",
@@ -276,15 +277,15 @@
     },
     {
       "id": 26,
-      "titulo": "Informe de peritajes contables",
+      "titulo": "Informe de Peritajes Contables",
       "ruta": "peritajes-contables",
       "descripcion": "-",
-      "icono": "fas fa-file-search",
+      "icono": "fas fa-file-invoice",
       "color": "bg-secondary"
     },
     {
       "id": 27,
-      "titulo": "Auditoría intera",
+      "titulo": "Auditoría Interna",
       "ruta": "auditoria-interna",
       "descripcion": "-",
       "icono": "fas fa-user-check",
@@ -292,7 +293,7 @@
     },
     {
       "id": 28,
-      "titulo": "Auditoría externa",
+      "titulo": "Auditoría Externa",
       "ruta": "auditoria-externa",
       "descripcion": "-",
       "icono": "fas fa-users",
@@ -300,7 +301,7 @@
     },
     {
       "id": 29,
-      "titulo": "Evaluación de proyectos",
+      "titulo": "Evaluación de Proyectos",
       "ruta": "evaluacion-proyectos",
       "descripcion": "-",
       "icono": "fas fa-tasks",
@@ -308,7 +309,7 @@
     },
     {
       "id": 30,
-      "titulo": "Tramitación de página de trabajo (aviso de término de contrato)",
+      "titulo": "Tramitación de Página de Trabajo (aviso de término de contrato)",
       "ruta": "pagina-trabajo-termino",
       "descripcion": "-",
       "icono": "fas fa-briefcase",
@@ -316,7 +317,7 @@
     },
     {
       "id": 31,
-      "titulo": "Comparendo de reclamaciones laborales ante la Dirección del Trabajo",
+      "titulo": "Comparendo de Reclamaciones Laborales ante la Dirección del Trabajo",
       "ruta": "reclamaciones-laborales-dt",
       "descripcion": "-",
       "icono": "fas fa-gavel",
@@ -324,7 +325,7 @@
     },
     {
       "id": 32,
-      "titulo": "Comparendo del a fiscalización de impuestos internos",
+      "titulo": "Comparendo de Fiscalización de Impuestos Internos",
       "ruta": "fiscalizacion-impuestos-internos",
       "descripcion": "-",
       "icono": "fas fa-balance-scale",
@@ -332,7 +333,7 @@
     },
     {
       "id": 33,
-      "titulo": "Respuestas a reclamaciones ante el SII",
+      "titulo": "Respuestas a Reclamaciones ante el SII",
       "ruta": "respuestas-reclamaciones-sii",
       "descripcion": "-",
       "icono": "fas fa-reply",
@@ -340,7 +341,7 @@
     },
     {
       "id": 34,
-      "titulo": "Defensa de contribuyentes ante el SII",
+      "titulo": "Defensa de Contribuyentes ante el SII",
       "ruta": "defensa-contribuyentes-sii",
       "descripcion": "-",
       "icono": "fas fa-shield-alt",
@@ -348,7 +349,7 @@
     },
     {
       "id": 35,
-      "titulo": "Presentación de reclamaciones ante el SII",
+      "titulo": "Presentación de Reclamaciones ante el SII",
       "ruta": "presentacion-reclamaciones-sii",
       "descripcion": "-",
       "icono": "fas fa-file-upload",
@@ -356,7 +357,7 @@
     },
     {
       "id": 36,
-      "titulo": "Defensa de contribuyentes ante el Tribunal Tributario",
+      "titulo": "Defensa de Contribuyentes ante el Tribunal Tributario",
       "ruta": "defensa-tribunal-tributario",
       "descripcion": "-",
       "icono": "fas fa-balance-scale-right",
@@ -364,7 +365,7 @@
     },
     {
       "id": 37,
-      "titulo": "Recursos de nulidad de derecho público",
+      "titulo": "Recursos de Nulidad de Derecho Público",
       "ruta": "recursos-nulidad-derecho-publico",
       "descripcion": "-",
       "icono": "fas fa-ban",
@@ -372,7 +373,7 @@
     },
     {
       "id": 38,
-      "titulo": "Reclamaciones por avalúos fiscales",
+      "titulo": "Reclamaciones por Avalúos Fiscales",
       "ruta": "reclamaciones-avaluos-fiscales",
       "descripcion": "-",
       "icono": "fas fa-home",
@@ -380,7 +381,7 @@
     },
     {
       "id": 39,
-      "titulo": "Solicitud de cambios de titular de bien raiz ante el SII",
+      "titulo": "Solicitud de Cambios de Titular de Bien Raíz ante el SII",
       "ruta": "cambios-titular-bien-raiz-sii",
       "descripcion": "-",
       "icono": "fas fa-exchange-alt",
@@ -388,7 +389,7 @@
     },
     {
       "id": 40,
-      "titulo": "Solicitud de asignación de rol de avalúo fiscal",
+      "titulo": "Solicitud de Asignación de Rol de Avalúo Fiscal",
       "ruta": "asignacion-rol-avaluo-fiscal",
       "descripcion": "-",
       "icono": "fas fa-list-ol",
@@ -396,7 +397,7 @@
     },
     {
       "id": 41,
-      "titulo": "Presentación de condonaciones tributarias",
+      "titulo": "Presentación de Condonaciones Tributarias",
       "ruta": "condonaciones-tributarias",
       "descripcion": "-",
       "icono": "fas fa-hand-holding-usd",
@@ -404,7 +405,7 @@
     },
     {
       "id": 42,
-      "titulo": "Presentación de prescripciones tributarias",
+      "titulo": "Presentación de Prescripciones Tributarias",
       "ruta": "prescripciones-tributarias",
       "descripcion": "-",
       "icono": "fas fa-prescription-bottle-alt",
@@ -412,7 +413,7 @@
     },
     {
       "id": 43,
-      "titulo": "Presentación de convenios ante la Tesorería General de la República",
+      "titulo": "Presentación de Convenios ante la Tesorería General de la República",
       "ruta": "convenios-tesoreria-general",
       "descripcion": "-",
       "icono": "fas fa-handshake",
@@ -420,7 +421,7 @@
     },
     {
       "id": 44,
-      "titulo": "Solicitar prescripción y abandono de procedimientos ante la Tesorería General de la República",
+      "titulo": "Solicitar Prescripción y Abandono de Procedimientos ante la Tesorería General de la República",
       "ruta": "prescripcion-abandono-tesoreria",
       "descripcion": "-",
       "icono": "fas fa-file-medical-alt",

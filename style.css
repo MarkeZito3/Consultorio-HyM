@@ -115,6 +115,24 @@ header {
     background-position: center;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
+#BannerLeyes{
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/leyes-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+#BannerContabilidad{
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/contabilidad-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
+#BannerDerechoInmobiliario{
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/bienes-raices-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
+}
 /* esto lo quiero poner, pero tal vez en otro lado */
 /* .hero-bg:focus,
 .hero-bg:hover {

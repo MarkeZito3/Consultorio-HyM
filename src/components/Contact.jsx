@@ -52,8 +52,8 @@ function Contact() {
           ></iframe>
         </div>
         <div className="mt-12 text-center">
-          <p className="text-xl mb-6">En H&M Consultoría Jurídica estamos para escucharte, asesorarte y acompañarte en cada paso.</p>
-          <p className="text-2xl font-bold">Tu tranquilidad legal es nuestra misión.</p>
+          <p className="text-xl mb-6">En <b>Consultores Hernández y Asociados</b> estamos para escucharte, asesorarte y acompañarte en cada paso.</p>
+          <p className="text-3xl font-bold">Tu tranquilidad legal es nuestra misión.</p>
         </div>
       </div>
     </section>

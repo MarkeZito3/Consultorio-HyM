@@ -30,9 +30,9 @@ function Footer() {
         {/* Redes Sociales */}
         <div className="flex flex-col items-center justify-center text-sm">
           <div className="flex justify-center space-x-4 mb-2">
-            <a href="#" className="text-gray-400 hover:text-white transition"><i className="fab fa-facebook-f"></i></a>
-            <a href="#" className="text-gray-400 hover:text-white transition"><i className="fab fa-linkedin-in"></i></a>
-            <a href="#" className="text-gray-400 hover:text-white transition"><i className="fab fa-instagram"></i></a>
+            <a href="https://www.facebook.com/willi.a.orellana/" className="text-gray-400 hover:text-white transition" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://cl.linkedin.com/in/willi-antonio-hern%C3%A1ndez-orellana-22038448" className="text-gray-400 hover:text-white transition" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/willyhernandezorellana/" className="text-gray-400 hover:text-white transition" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
           </div>
           <span className="text-xs text-gray-400">Síguenos en redes sociales</span>
         </div>

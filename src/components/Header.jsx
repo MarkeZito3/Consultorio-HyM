@@ -86,7 +86,7 @@ function Header() {
               Servicios <i className="fas fa-caret-down ml-1"></i>
             </button>
             <div className={`absolute left-0 mt-2 w-44 bg-white text-primary rounded shadow-lg transition-opacity z-50 ${open ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
-              <Link to="/leyes" className="block px-4 py-2 hover:bg-gray-100" onClick={() => {setOpen(false); setIsOpen(false); window.scrollTo(0, 0);}}>Leyes</Link>
+              <Link to="/legales" className="block px-4 py-2 hover:bg-gray-100" onClick={() => {setOpen(false); setIsOpen(false); window.scrollTo(0, 0);}}>Legales</Link>
               <Link to="/contabilidad" className="block px-4 py-2 hover:bg-gray-100" onClick={() => {setOpen(false); setIsOpen(false); window.scrollTo(0, 0);}}>Contabilidad</Link>
               <Link to="/derecho_inmobiliario" className="block px-4 py-2 hover:bg-gray-100" onClick={() => {setOpen(false); setIsOpen(false); window.scrollTo(0, 0);}}>Derecho Inmobiliario</Link>
             </div>

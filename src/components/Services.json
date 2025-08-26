@@ -1,77 +1,85 @@
 {
-  "Leyes": [
+  "Legales": [
     {
-      "id": 5,
+      "id": 1,
       "titulo": "Derecho Laboral",
       "ruta": "derecho-laboral",
-      "descripcion": "Servicios especializados en derecho laboral para empleadores y trabajadores. Asesoramos en contratos de trabajo, negociaciones colectivas, conflictos laborales, seguridad social y cumplimiento de normativas laborales. Protegemos sus derechos en el ámbito laboral.",
+      "descripcion": "El derecho laboral regula las relaciones entre empleadores y trabajadores, asegurando el respeto de los derechos y el cumplimiento de las obligaciones de ambas partes. Nuestro equipo especializado ofrece asesoría integral en la elaboración y revisión de contratos, gestión de negociaciones colectivas, resolución de conflictos laborales, procesos de desvinculación, cumplimiento de normativas vigentes y representación ante la Inspección del Trabajo y tribunales laborales, garantizando soluciones justas, eficientes y adaptadas a cada necesidad.",
       "icono": "fas fa-users",
       "color": "bg-secondary",
-      "foto" : "derecho-laboral.png"
+      "foto" : "legales/derecho-laboral.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Derecho Comercial",
+      "ruta": "derecho-comercial",
+      "descripcion": "El derecho comercial regula las actividades y relaciones jurídicas derivadas del comercio y los negocios. Nuestro equipo ofrece asesoría integral en la constitución y reestructuración de empresas, redacción y revisión de contratos comerciales, fusiones y adquisiciones, protección de propiedad intelectual, cumplimiento normativo y resolución de conflictos entre sociedades o con terceros. Trabajamos junto a emprendedores, pymes y grandes empresas codo a codo en cada etapa de su desarrollo, garantizando seguridad jurídica y soluciones estratégicas para el crecimiento de su negocio.",
+      "icono": "fas fa-briefcase",
+      "color": "bg-secondary",
+      "foto" : "legales/derecho-comercial.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Derecho de Familia",
+      "ruta": "derecho-familia",
+      "descripcion": "El derecho de familia regula las relaciones jurídicas que surgen dentro del núcleo familiar, velando por la protección de sus integrantes y el cumplimiento de sus derechos y deberes. Ofrecemos asesoría y representación en procesos de divorcio, cuidado personal y visitas de menores, pensiones de alimentos, adopciones, sucesiones y liquidación de bienes. Nuestro equipo aborda cada caso con sensibilidad, discreción y profesionalismo, entregando soluciones legales claras y efectivas para resguardar el bienestar de su familia.",
+      "icono": "fas fa-heart",
+      "color": "bg-secondary",
+  "foto" : "legales/derecho-familia.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Derecho Penal",
+      "ruta": "derecho-penal",
+      "descripcion": "El derecho penal es la parte de la ley que se ocupa de los delitos y de las penas para quienes los cometen. Si enfrentas una acusación o necesitas presentar una denuncia, nuestro equipo de abogados penalistas te acompaña en todo el proceso: desde la investigación inicial hasta el juicio. Te ayudamos en casos como robos, fraudes, delitos económicos y otros problemas legales, siempre cuidando que se respeten tus derechos y buscando la mejor solución para tu situación.",
+      "icono": "fas fa-gavel",
+      "color": "bg-secondary",
+  "foto" : "legales/derecho-penal.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Derecho Tributario",
+      "ruta": "derecho-tributario",
+  "descripcion": "El derecho tributario se encarga de las normas legales que regulan los impuestos. Nuestro equipo te ayuda a entender y cumplir con tus obligaciones tributarias, ya seas una persona, un emprendedor o una empresa. Asesoramos en declaraciones de impuestos, planificación fiscal para pagar lo justo y en defensa frente a revisiones, multas o conflictos con el Servicio de Impuestos Internos, buscando siempre soluciones claras, seguras y eficientes.",
+      "icono": "fas fa-file-invoice-dollar",
+      "color": "bg-secondary",
+      "foto" : "legales/derecho-tributario.png"
     },
     {
       "id": 6,
-      "titulo": "Derecho Comercial",
-      "ruta": "derecho-comercial",
-      "descripcion": "Asesoría legal especializada en derecho comercial y mercantil. Incluimos constitución de empresas, contratos comerciales, fusiones y adquisiciones, propiedad intelectual y resolución de conflictos comerciales. Facilitamos el crecimiento y protección de su negocio.",
-      "icono": "fas fa-briefcase",
-      "color": "bg-secondary"
+      "titulo": "Derecho Administrativo",
+      "ruta": "derecho-administrativo",
+      "descripcion": "El derecho administrativo se ocupa de las normas que regulan cómo interactúan las personas y empresas con el Estado y sus instituciones. Te ayudamos a gestionar trámites, permisos, licitaciones y concesiones, así como a defenderte en casos de multas, sanciones o problemas con organismos públicos. Nuestro objetivo es guiarte en cada proceso, asegurando que tus gestiones sean rápidas, correctas y con total respaldo legal.",
+      "icono": "fas fa-university",
+      "color": "bg-secondary",
+      "foto" : "legales/derecho-administrativo.png"
     },
     {
       "id": 7,
-      "titulo": "Derecho de Familia",
-      "ruta": "derecho-familia",
-      "descripcion": "Servicios legales especializados en derecho de familia con sensibilidad y profesionalismo. Asesoramos en divorcios, custodia de menores, pensión alimenticia, adopciones y sucesiones. Resolvemos sus asuntos familiares con empatía y eficacia legal.",
-      "icono": "fas fa-heart",
-      "color": "bg-secondary"
+      "titulo": "Derecho Migratorio",
+      "ruta": "derecho-migratorio",
+      "descripcion": "El derecho migratorio se encarga de todas las normas y trámites que permiten a extranjeros vivir, trabajar o estudiar legalmente en el país. Nuestro equipo asesora y acompaña en cada etapa del proceso: obtención de visas, permisos de trabajo, residencia temporal o definitiva, nacionalización y regularización de documentos. También le ayudamos con procedimientos de rechazo, apelación o deportación, garantizando que todos reciban el apoyo legal que necesitan para establecerse de forma segura y legal en el país.",
+      "icono": "fas fa-passport",
+      "color": "bg-secondary",
+      "foto" : "legales/derecho-migratorio.png"
     },
     {
       "id": 8,
-      "titulo": "Derecho Penal",
-      "ruta": "derecho-penal",
-      "descripcion": "Defensa penal especializada y representación legal en procesos penales. Nuestros abogados penalistas brindan asesoría en investigaciones, juicios penales, recursos y medidas cautelares. Protegemos sus derechos fundamentales en el sistema penal.",
-      "icono": "fas fa-gavel",
-      "color": "bg-secondary"
+      "titulo": "Derecho Civil (Aporte)",
+      "ruta": "derecho-civil-aporte",
+      "descripcion": "El derecho civil regula las relaciones entre personas en asuntos cotidianos, como contratos, deudas, propiedad y responsabilidades legales. Buscamos soluciones proactivas para proteger sus derechos y contratos y su propiedad dentro de la ley.",
+      "icono": "fas fa-balance-scale",
+      "color": "bg-secondary",
+      "foto" : "legales/derecho-civil.png"
     },
     {
       "id": 9,
-      "titulo": "Derecho Tributario",
-      "ruta": "derecho-tributario",
-      "descripcion": "Asesoría en cumplimiento tributario, planificación fiscal y representación frente al Servicio de Impuestos Internos. Defendemos a empresas y particulares en auditorías, reclamaciones y procedimientos tributarios.",
-      "icono": "fas fa-file-invoice-dollar",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 10,
-      "titulo": "Derecho Administrativo",
-      "ruta": "derecho-administrativo",
-      "descripcion": "Representación y asesoría en procedimientos administrativos frente a organismos públicos. Incluye licitaciones, permisos, concesiones, sanciones administrativas y recursos jerárquicos o de reposición.",
-      "icono": "fas fa-university",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 11,
-      "titulo": "Derecho Migratorio",
-      "ruta": "derecho-migratorio",
-      "descripcion": "Asesoría integral en trámites migratorios, obtención de visas, regularización de residencia, nacionalización y defensa en procesos administrativos ante autoridades migratorias.",
-      "icono": "fas fa-passport",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 12,
-      "titulo": "Derecho Civil (Aporte)",
-      "ruta": "derecho-civil-aporte",
-      "descripcion": "Asistencia en contratos civiles, responsabilidad civil, cobro de deudas, arrendamientos y conflictos entre particulares. Protegemos sus derechos y brindamos soluciones legales efectivas en el ámbito civil.",
-      "icono": "fas fa-balance-scale",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 13,
       "titulo": "Procesamiento Jurídico",
       "ruta": "procesamiento-juridico",
-      "descripcion": "Servicios de tramitación y gestión procesal, incluyendo presentación de demandas, recursos, escritos judiciales y representación en distintas instancias del sistema de justicia.",
+      "descripcion": "El procesamiento jurídico se refiere a todas las gestiones y trámites necesarios para que un caso avance correctamente en los tribunales. Nuestro equipo te ayuda a presentar demandas, recursos y escritos legales, así como a seguir cada etapa del proceso judicial. Nos aseguramos de que todos los plazos y requisitos se cumplan, protegiendo tus derechos y buscando que los procedimientos se resuelvan de manera efectiva y segura.",
       "icono": "fas fa-gavel",
-      "color": "bg-secondary"
+      "color": "bg-secondary",
+      "foto" : "legales/procesamiento-jurídico.png"
     }
   ],
   "Contabilidad": [

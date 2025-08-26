@@ -62,11 +62,11 @@ export function BannerTeam() {
   )
 }
 
-export function BannerLeyes() {
+export function BannerLegales() {
   return (
-    <section id="BannerLeyes" className="bg-secondary text-white py-40 px-4 bg-diagonal">
+  <section id="BannerLegales" className="bg-secondary text-white py-40 px-4 bg-diagonal">
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold header-font mb-4">Leyes</h2>
+  <h2 className="text-2xl md:text-3xl font-bold header-font mb-4">Legales</h2>
         <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
       </div>
     </section>

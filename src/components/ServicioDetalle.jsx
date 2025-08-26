@@ -21,7 +21,7 @@ export default function ServicioDetalle({ area }) {
 
   return (
     <section className="py-8 px-2 animate-fade-in">
-      <div className="flex flex-col md:flex-row items-center md:py-16 md:px-4 gap-8 md:gap-0">
+      <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
         <div className="description w-full md:w-2/3 md:pr-10 mb-6 md:mb-0">
           <div className="flex items-center mb-4">
             <div className={`${service.color} text-white rounded-lg p-3 mr-4`}>

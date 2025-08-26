@@ -6,7 +6,7 @@ function About() {
   const [selectedService, setSelectedService] = useState(null)
 
   // Ordenar las áreas como pide el usuario
-  const areaOrder = ["Leyes", "Contable", "DerechoInmobiliaria"];
+  const areaOrder = ["Legales", "Contable", "DerechoInmobiliaria"];
   const allServices = areaOrder.flatMap(area =>
     (servicesData[area] || []).map(service => ({ ...service, area }))
   );
@@ -67,8 +67,8 @@ function About() {
             <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
             {/* Grid de servicios */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-              <Link to ="/leyes" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
-                <h2 className='font-semibold'>Leyes</h2>
+              <Link to ="/legales" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
+                <h2 className='font-semibold'>Legales</h2>
                 <p className="mt-2 text-sm text-gray-200">
                   Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses.
                 </p>

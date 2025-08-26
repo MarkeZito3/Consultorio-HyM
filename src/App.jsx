@@ -1,12 +1,12 @@
 import React from 'react'
 import Header from './components/Header'
-import { Inicio, BannerTeam, BannerLeyes, InicioLocal, BannerDerechoInmobiliario, BannerContabilidad } from './components/Banner'
+import { Inicio, BannerTeam, BannerLegales, InicioLocal, BannerDerechoInmobiliario, BannerContabilidad } from './components/Banner'
 import About from './components/About'
 import Team from './components/Team'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Leyes, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
+import { Legales, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
 import ServicioDetalle from './components/ServicioDetalle';
 
 function App() {
@@ -28,17 +28,17 @@ function App() {
             <Team />
           </>
         } />
-        {/* Leyes y detalle */}
-        <Route path="/leyes" element={
+  {/* Legales y detalle */}
+  <Route path="/legales" element={
           <>
-            <BannerLeyes />
-            <Leyes />
+            <BannerLegales />
+            <Legales />
           </>
         } />
-        <Route path="/leyes/:servicioRuta" element={
+  <Route path="/legales/:servicioRuta" element={
           <>
-            <BannerLeyes />
-            <ServicioDetalle area="Leyes" />
+            <BannerLegales />
+            <ServicioDetalle area="Legales" />
           </>
         } />
         {/* Contabilidad y detalle */}

@@ -33,11 +33,11 @@ function Servicios({ serviceName, servicesData }) {
   );
 }
 
-export function Leyes() {
+export function Legales() {
   return (
-    <div className='Leyes animate-fade-in'>
+  <div className='Legales animate-fade-in'>
       <Servicios
-        serviceName="Leyes"
+  serviceName="Legales"
         servicesData={servicesData}
       />
     </div>

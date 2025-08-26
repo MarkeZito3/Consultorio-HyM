@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react'
 import logo from '../assets/logo.png';
+import logosimple from '../assets/logo-simple.svg';
 import { Link } from 'react-router-dom'
 
 function Header() {
@@ -52,8 +53,8 @@ function Header() {
           {/* logo */}
           <Link to="/" className="flex items-center" onClick={() => {window.scrollTo(0, 0);}}>
             <div className="text-primary rounded-full w-20 h-12 flex items-center justify-center mr-4">
-              {/* aquí abajo va el logo real  */}
-              <img src={logo} alt="Logo" className="w-16 h-16 object-contain" />
+              {/* Logo SVG importado como componente, color controlable por style.fill */}
+              <img src={logosimple} alt="Logo simple" className="w-16 h-16 object-contain" style={{ filter: 'invert(1)' }} />
               {/* <i className="fas fa-balance-scale text-xl"></i> */}
             </div>
             <h1 className={`${fontSizeLogo} font-bold header-font`}>Consultores Hernández & Asociados</h1>

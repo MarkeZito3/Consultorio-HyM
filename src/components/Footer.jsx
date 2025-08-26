@@ -1,4 +1,5 @@
 import React from 'react'
+import logosimple from '../assets/logo-simple.svg';
 
 function Footer() {
   return (
@@ -23,6 +24,7 @@ function Footer() {
                 
         {/* Derechos */}
         <div className="flex flex-col items-center justify-center text-sm">
+          <img src={logosimple} alt="Logo simple" className="w-16 h-16 mb-4 object-contain" style={{ filter: 'invert(1)' }} />
           <h3 className="text-xl font-bold header-font mb-4">Consultores Hernández & Asociados</h3>
           <p className="mb-4">© 2025 Consultores Hernández & Asociados - H&M. Todos los derechos reservados.</p>
         </div>

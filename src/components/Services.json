@@ -82,7 +82,7 @@
       "foto" : "legales/procesamiento-jurídico.png"
     }
   ],
-  "Contabilidad": [
+  "Ejemplo": [
     {
       "id": 1,
       "titulo": "Consultoría Empresarial",
@@ -510,7 +510,7 @@
       "color": "bg-secondary"
     }
   ],
-  "Ejemplo": [
+  "Contabilidad": [
     {
       "id": 1,
       "titulo": "Constitución y Gestión Empresarial",

@@ -1,0 +1,18 @@
+[
+  {
+    "pregunta": "¿Qué servicios ofrecen?",
+    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "pregunta": "¿Dónde están ubicados?",
+    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "pregunta": "¿Cómo puedo solicitar una consulta?",
+    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "pregunta": "¿Atienden empresas y particulares?",
+    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  }
+]

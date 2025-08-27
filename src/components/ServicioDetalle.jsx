@@ -12,23 +12,21 @@ function getImage(name) {
   return `/src/assets/services/${name}`
 }
 
-function jurisprudencias( service ){
-  
-  let toasLasJurisprudencias = jurisprudenciasData["jurisprudencias"]
-  for (let i = 0; i < toasLasJurisprudencias.length; i++) {
-    if ( toasLasJurisprudencias[i].idServicio === service.id ) {
-      console.log(toasLasJurisprudencias[i].id_ley);
-    }
-  }
-  return 0;
-}
-
 export default function ServicioDetalle({ area }) {
   const { servicioRuta } = useParams();
   const service = getServiceByRoute(area, servicioRuta);
 
   if (!service) {
     return <div className="p-8 text-center text-red-600">Servicio no encontrado.</div>;
+  }
+
+  // Filtrar jurisprudencias relacionadas si corresponde
+  let jurisprudenciasRelacionadas = [];
+  if (area === "Legales" && service.id) {
+    const jurisprudencia = (jurisprudenciasData["jurisprudencias"] || []).find(j => j.id_ley === service.id);
+    if (jurisprudencia && jurisprudencia.casos && jurisprudencia.casos.length > 0) {
+      jurisprudenciasRelacionadas = jurisprudencia.casos;
+    }
   }
 
   return (
@@ -55,18 +53,22 @@ export default function ServicioDetalle({ area }) {
           )}
         </div>
       </section>
-      {area === "Legales" && (
+      {area === "Legales" && jurisprudenciasRelacionadas.length > 0 ? (
         <section className="py-8 px-2 animate-fade-in">
           <div className="container mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 header-font">Jurisprudencias Relacionadas</h2>
             <div className="w-24 h-1 bg-accent mb-6"></div>
             <ul className="list-disc list-inside">
-              {/* agregar jurisprudencias xd */}
-              
+              {jurisprudenciasRelacionadas.map((caso, idx) => (
+                <li key={caso.titulo || idx} className="mb-2">
+                  <span className="font-semibold">{caso.titulo}</span>
+                  <div className="text-gray-700 text-sm">{caso.descripcion}</div>
+                </li>
+              ))}
             </ul>
           </div>
         </section>
-      )}
+      ) : <div></div>}
     </>
   );
 }

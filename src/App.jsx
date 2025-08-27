@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Legales, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
 import ServicioDetalle from './components/ServicioDetalle';
+import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Inicio/>
             <About />
             <InicioLocal/>
+            <PreguntasFrecuentes/>
             <Contact />
           </>
         } />

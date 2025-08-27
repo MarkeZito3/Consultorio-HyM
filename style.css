@@ -104,9 +104,10 @@ header {
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 .hero-bg-local{
-    background: linear-gradient(#05163066, #050A30), url('/src/assets/foto-local.png');
+    background-image: linear-gradient(#05163066, #050A30), url('/src/assets/donQuijote.webp');
     background-size: cover;
-    background-position: center;
+    background-position: top;
+    background-attachment: fixed;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 #BannerTeam{

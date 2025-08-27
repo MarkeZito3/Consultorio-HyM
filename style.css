@@ -31,6 +31,9 @@ header {
 #SobreNosotros {
     scroll-margin-top: 80px;
 }
+#PreguntasFrecuentes {
+    scroll-margin-top: 60px;
+}
 
 @media (max-width: 600px) {
     #contacto {
@@ -38,6 +41,9 @@ header {
     }
     #SobreNosotros {
         scroll-margin-top: 40px;
+    }
+    PreguntasFrecuentes {
+        scroll-margin-top: -10px;
     }
 }
 

@@ -4,24 +4,11 @@
       "id_ley": 1,
       "casos": [
         {
-          "titulo": "Caso 1",
-          "descripcion": "El trabajador demandó a la empresa por despido injustificado. Se resolvió a favor del trabajador con indemnización completa.",
-          "foto": "caso1.png"
-        },
-        {
-          "titulo": "Caso 2",
-          "descripcion": "Conflicto de interpretación de contrato colectivo. La resolución estableció criterios claros para futuras negociaciones.",
-          "foto": "caso2.png"
-        }
-      ]
-    },
-    {
-      "id_ley": 2,
-      "casos": [
-        {
-          "titulo": "Caso 1",
-          "descripcion": "Disputa comercial entre empresas sobre incumplimiento de contrato. El tribunal determinó el pago de compensaciones.",
-          "foto": "caso3.png"
+          "titulo": "Despido Injustificado Municipalidad San Javier",
+          "subtitulo": "El máximo Tribunal confirmó que el vínculo contractual entre las partes era de naturaleza laboral, al concurrir en la especie los elementos propios de la subordinación y dependencia, en atención al artículo 7 del Código del Trabajo.",
+          "descripcion": "<Caso1/>",
+          "url": "despido-injustificado-municipalidad-san-javier",
+          "foto": "Contrato-Garrigues.jpg"
         }
       ]
     }

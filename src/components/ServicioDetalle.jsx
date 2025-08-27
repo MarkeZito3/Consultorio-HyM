@@ -1,7 +1,9 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import servicesData from './Services.json';
+import { Link } from 'react-router-dom'
 import jurisprudenciasData from './Jurisprudencias.json';
+import { Caso1 } from './Jurisprudencias.jsx';
 
 function getServiceByRoute(area, ruta) {
   const areaData = servicesData[area] || [];
@@ -10,6 +12,9 @@ function getServiceByRoute(area, ruta) {
 
 function getImage(name) {
   return `/src/assets/services/${name}`
+}
+function getImageJuri(name) {
+  return `/src/assets/Jurisprudencias/${name}`
 }
 
 export default function ServicioDetalle({ area }) {
@@ -33,7 +38,7 @@ export default function ServicioDetalle({ area }) {
     <>
       <section className="py-8 px-2 animate-fade-in">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-          <div className="description w-full md:w-2/3 md:pr-10 mb-6 md:mb-0">
+          <div className={`description w-full md:pr-10 mb-6 md:mb-0${service.foto && service.foto !== '' ? ' md:w-2/3' : ''}`}>
             <div className="flex items-center mb-4">
               <div className={`${service.color} text-white rounded-lg p-3 mr-4`}>
                 <i className={`${service.icono} text-xl`}></i>
@@ -58,15 +63,21 @@ export default function ServicioDetalle({ area }) {
           <div className="container mx-auto">
             <h2 className="text-2xl md:text-3xl font-bold text-primary mb-4 header-font">Jurisprudencias Relacionadas</h2>
             <div className="w-24 h-1 bg-accent mb-6"></div>
-            <ul className="list-disc list-inside">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
               {jurisprudenciasRelacionadas.map((caso, idx) => (
-                <li key={caso.titulo || idx} className="mb-2">
-                  <span className="font-semibold">{caso.titulo}</span>
-                  <div className="text-gray-700 text-sm">{caso.descripcion}</div>
-                </li>
+                <Link 
+                  key={caso.url || idx}
+                  to={`${window.location.pathname}/${caso.url}`}
+                  className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg"
+                  onClick={() => {window.scrollTo(0, 0);}}
+                >
+                  <h2 className='font-semibold'>{caso.titulo}</h2>
+                  <img src={getImageJuri(caso.foto)} alt={caso.titulo} />
+                </Link>
               ))}
-            </ul>
+            </div>
           </div>
+          <Caso1/>
         </section>
       ) : <div></div>}
     </>

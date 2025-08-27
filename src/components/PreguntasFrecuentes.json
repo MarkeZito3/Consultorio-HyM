@@ -1,18 +1,42 @@
 [
   {
-    "pregunta": "¿Qué servicios ofrecen?",
-    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "pregunta": "¿Qué necesito para divorciarme?",
+    "respuesta": "Dependiendo del tipo de divorcio, necesitas el certificado de matrimonio, documentos que acrediten separación y, en algunos casos, un acuerdo entre las partes. Te asesoramos durante todo el proceso."
   },
   {
-    "pregunta": "¿Dónde están ubicados?",
-    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "pregunta": "¿Qué hago si el padre de mi hijo no paga la pensión de alimentos?",
+    "respuesta": "Puedes denunciar el incumplimiento ante el tribunal de familia y solicitar medidas como retención de sueldo o arraigo. Te acompañamos en todo el trámite."
   },
   {
-    "pregunta": "¿Cómo puedo solicitar una consulta?",
-    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "pregunta": "Me están demandando por una deuda, ¿qué debo hacer?",
+    "respuesta": "Revisa la demanda con un abogado antes de responder. Te ayudamos a preparar tu defensa y a negociar acuerdos que eviten mayores problemas legales."
   },
   {
-    "pregunta": "¿Atienden empresas y particulares?",
-    "respuesta": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "pregunta": "Me despidieron injustificadamente, ¿puedo reclamar?",
+    "respuesta": "Puedes presentar una demanda laboral para exigir indemnizaciones y beneficios adeudados. Te guiamos desde la carta de reclamo hasta el juicio."
+  },
+  {
+    "pregunta": "¿Cómo puedo hacer un testamento?",
+    "respuesta": "Debes redactarlo con las formalidades legales y firmarlo ante notario. Te ayudamos a planificarlo para que cumpla con la ley y respete tu voluntad."
+  },
+  {
+    "pregunta": "No quiero que mis hijos hereden mis bienes, ¿es posible?",
+    "respuesta": "La ley protege la herencia de los hijos, pero existen estrategias legales, como donaciones o sociedades, que podemos analizar en tu caso."
+  },
+  {
+    "pregunta": "Quiero vender un terreno, ¿qué necesito?",
+    "respuesta": "Necesitas el título de dominio, certificado de avalúo fiscal y certificados de hipotecas y gravámenes. Te apoyamos en la revisión y gestión de la venta."
+  },
+  {
+    "pregunta": "Me chocaron, ¿puedo demandar al responsable?",
+    "respuesta": "Sí, puedes reclamar daños materiales y lesiones. Te ayudamos a recopilar pruebas y presentar la demanda."
+  },
+  {
+    "pregunta": "Quiero iniciar la posesión efectiva, ¿cómo lo hago?",
+    "respuesta": "Debes reunir certificados de defunción, nacimiento y matrimonio, además del listado de bienes. Te asesoramos en cada etapa del trámite."
+  },
+  {
+    "pregunta": "Mi vecino maltrata a su perro, ¿cómo lo denuncio?",
+    "respuesta": "Puedes denunciar el maltrato animal en Carabineros, PDI o el Ministerio Público. Te indicamos los pasos y cómo respaldar tu denuncia."
   }
 ]

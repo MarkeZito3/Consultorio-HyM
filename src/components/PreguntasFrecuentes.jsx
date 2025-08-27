@@ -7,7 +7,7 @@ function PreguntasFrecuentes() {
   const toggle = idx => setAbierta(abierta === idx ? null : idx);
 
   return (
-    <section className="py-12 px-4" style={{ background: 'var(--color-primary, #050A30)' }}>
+    <section id="PreguntasFrecuentes" className="PreguntasFrecuentes py-12 px-4" style={{ background: 'var(--color-primary, #050A30)' }}>
       <div className="container mx-auto max-w-2xl">
         <h2 className="text-2xl md:text-3xl font-bold text-white mb-8 text-center header-font">Preguntas Frecuentes</h2>
         <div className="space-y-4">

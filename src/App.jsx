@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { Legales, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
 import ServicioDetalle from './components/ServicioDetalle';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
+import JurisprudenciaDetalle from './components/JurisprudenciaDetalle';
 
 function App() {
   return (
@@ -41,6 +42,11 @@ function App() {
           <>
             <BannerLegales />
             <ServicioDetalle area="Legales" />
+          </>
+        } />
+  <Route path="/legales/:servicioRuta/:url" element={
+          <>
+            <JurisprudenciaDetalle />
           </>
         } />
         {/* Contabilidad y detalle */}

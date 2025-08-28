@@ -80,6 +80,15 @@
       "icono": "fas fa-gavel",
       "color": "bg-secondary",
       "foto" : "legales/procesamiento-jurídico.png"
+    },
+    {
+      "id": 10,
+      "titulo": "Derecho Constitucional",
+      "ruta": "procesamiento-juridico",
+      "descripcion": "El procesamiento jurídico se refiere a todas las gestiones y trámites necesarios para que un caso avance correctamente en los tribunales. Nuestro equipo te ayuda a presentar demandas, recursos y escritos legales, así como a seguir cada etapa del proceso judicial. Nos aseguramos de que todos los plazos y requisitos se cumplan, protegiendo tus derechos y buscando que los procedimientos se resuelvan de manera efectiva y segura.",
+      "icono": "fas fa-gavel",
+      "color": "bg-secondary",
+      "foto" : "legales/procesamiento-jurídico.png"
     }
   ],
   "Ejemplo": [

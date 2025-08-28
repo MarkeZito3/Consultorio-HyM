@@ -5,10 +5,24 @@
       "casos": [
         {
           "titulo": "Despido Injustificado Municipalidad San Javier",
-          "subtitulo": "El máximo Tribunal confirmó que el vínculo contractual entre las partes era de naturaleza laboral, al concurrir en la especie los elementos propios de la subordinación y dependencia, en atención al artículo 7 del Código del Trabajo.",
-          "descripcion": "<Caso1/>",
-          "url": "despido-injustificado-municipalidad-san-javier",
-          "foto": "Contrato-Garrigues.jpg"
+          "subtitulo": "Corte Suprema ordena indemnización a terapeuta: El vínculo laboral prevalece sobre el contrato a honorarios.",
+          "descripcion": "despido_injustificado_municipalidad_san_javier",
+          "fecha":"7 de junio de 2023",
+          "url": "despido_injustificado_municipalidad_san_javier",
+          "foto": "jurisprudencias/Contrato-Garrigues.jpg"
+        }
+      ]
+    },
+    {
+      "id_ley": 3,
+      "casos": [
+        {
+          "titulo": "Nulidad Reconocimiento Paternidad Talca",
+          "subtitulo": "Triunfo de la verdad biológica: Corte de Apelaciones anula paternidad y deja sin efecto demanda de alimentos.",
+          "descripcion": "nulidad_reconocimiento_paternidad_talca",
+          "fecha":"fallo realizado el 8 de julio de 2025",
+          "url": "nulidad_reconocimiento_paternidad_talca",
+          "foto": "jurisprudencias/ADN-Test.jpg"
         }
       ]
     }

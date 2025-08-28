@@ -1,35 +1,53 @@
 export function Inicio() {
-  
-  // const [yearsCount, yearsRef] = useCountUp(35, 1500)
-  
   return (
-    <section id='Inicio' className="hero-bg flex flex-col justify-evenly bg-primary text-white px-4">
-      <div className="text-center pt-40 pb-20">
-        <h1 className="text-4xl md:text-5xl font-bold header-font mb-7">Consultores Hernández & Asociados</h1>
+    <section 
+      id="Inicio" 
+      className="hero-bg bg-primary text-white min-h-screen flex flex-col items-center justify-center px-4"
+    >
+      {/* Encabezado */}
+      <div className="text-center mb-10">
+        <h1 className="text-4xl md:text-5xl font-bold header-font mb-6 pt-40">
+          Consultores Hernández & Asociados
+        </h1>
         <div className="w-24 h-1 bg-accent mx-auto mb-6"></div>
-        <h2 className="text-2xl md:text-3xl font-bold header-font mb-7">Willi Hernández Orellana</h2>
-        {/* <p className="max-w-3xl mx-auto text-lg">
-          Auditoria, Contabilidades, Defensa en Derecho Tributario,Derecho Laboral, Derecho Penal, Derecho Familia, Derecho Comercial, Derecho Civil, Vif Asesoría Financieras, Jurídicas
-          Profesionales: Contadores Generales, Contadores Auditores,Ingeniero Comercial, Abogados, Magíster en Dirección Financiera, Magíster en Derecho Tributario, Doctorando en Derecho, Magíster  en Derecho  Penal, Diplomado en  Mediación familiar, Diplomado en Derecho Penal parte General y Diplomado en Derecho Penal parte Especial, Diplomado en Litigación Penal estratégica, Diplomado en Tributario, Diplomado en Derecho Laboral, Perito tributario  de las corte de Chile,   experto en Tributación, Diplomado en Economía y Finanzas, Diplomado en Remuneraciones Laborales, profesor Universitario, diplomado en inteligencia artificial. 
-        </p> */}
-        <p className="max-w-3xl mx-auto text-lg">Bufet de Abogados y Contadores</p>
+        <h2 className="text-2xl md:text-3xl font-semibold">
+          Bufete de Abogados y Contadores
+        </h2>
       </div>
-      <div className='flex flex-col md:flex-row w-full mx-auto text-center pb-5'>
-        <div className="anosServicios flex w-full md:w-1/3 order-1 md:order-3 justify-center md:justify-end mb-6 md:mb-0">
-          <span className='text-4x1 md:text-5-1'>con 
-            <span className='relative inline-block before:absolute before:-inset-1 before:block before:-skew-y-3 before:bg-accent/80 mx-2 px-3'>
-              <span className='relative text-white dark:text-dark font-bold'>+35 AÑOS</span>
+
+      {/* Años de servicio */}
+      <div className="text-center max-w-2xl mb-10 px-2">
+        <p className="text-lg md:text-xl">
+          Con{" "}
+          <span className="relative inline-block px-3">
+            <span className="absolute inset-0 -skew-y-3 bg-accent/80"></span>
+            <span className="relative text-white font-bold">
+              +35 AÑOS
             </span>
-            de servicios escuchando, asesorardo y acompañando en cada caso
-          </span>
-        </div>
-        <h2 className='mejoresAbogados w-full md:w-1/3 text-4xl md:text-5-1 pt-20 order-2 md:order-1'>Asesórate con los mejores <b>Abogados</b> y <b>Contadores</b> en casos diversos como:</h2>
-        <div className="w-full md:w-1/3 order-3 md:order-2"></div>
+          </span>{" "}
+          de experiencia escuchando, asesorando y acompañando en cada caso.
+        </p>
       </div>
-      <div className="especialidades text-center  overflow-hidden relative pb-10">
-        <div className="marquee whitespace-nowrap inline-block" style={{animation: 'marquee 30s linear infinite'}}>
-          Auditoría • Derecho Tributario, Laboral, Penal, Familiar, Comercial y Civil • Asesoría Financiera y Jurídica • Contaduría General • Declaraciones Tributarias • Defensa ante el SII • Trámites Inmobiliarios Tributarios • Servicios ante Tesorería General • 
-        </div>
+
+      {/* Especialidades */}
+      <div className="text-center max-w-3xl">
+        <h2 className="text-2xl md:text-3xl font-bold mb-6">
+          Áreas de Especialización
+        </h2>
+        <ul className="grid grid-cols-1 md:grid-cols-3 gap-3">
+          <li>Auditoría</li>
+          <li>Derecho Familiar</li>
+          <li>Derecho Laboral</li>
+          <li>Derecho Penal</li>
+          <li>Derecho Tributario</li>
+          <li>Defensa ante el SII</li>
+          <li>Asesoría Financiera y Jurídica</li>
+          <li>Declaraciones Tributarias</li>
+          <li>Derecho Comercial y Civil</li>
+          <li>Trámites Inmobiliarios Tributarios</li>
+          <li>Servicios ante Tesorería General</li>
+          <li></li>
+        </ul>
       </div>
     </section>
   )

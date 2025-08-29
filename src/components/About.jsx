@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import servicesData from './Services.json'
+import ElizabethImg from '../assets/team/Elizabeth.jpg'
 
 function About() {
   const [selectedService, setSelectedService] = useState(null)
@@ -43,18 +44,18 @@ function About() {
                   Willi Hernández Orellana
                 </div>
               </div>
-              
-              {/* Círculo para Elizabeth Morales */}
+
+              {/* Círculo para Elizabeth Morales Gajardo */}
               <div className="relative">
                 <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img 
                     className="w-full h-full object-cover" 
-                    src="https://via.placeholder.com/300x300/E24A90/FFFFFF?text=Elizabeth+Morales" 
-                    alt="Elizabeth Morales" 
+                    src={ElizabethImg} 
+                    alt="Elizabeth Morales Gajardo" 
                   />
                 </div>
                 <div className="absolute -bottom-2 left-1/2 transform -translate-x-1/2 bg-accent dark:text-dark py-2 px-4 rounded-lg shadow-lg text-sm font-bold">
-                  Elizabeth Morales
+                  Elizabeth Morales Gajardo
                 </div>
               </div>
             </div>

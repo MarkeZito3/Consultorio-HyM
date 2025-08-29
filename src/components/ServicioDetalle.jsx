@@ -58,7 +58,7 @@ export default function ServicioDetalle({ area }) {
               </div>
               <h1 className="text-2xl md:text-3xl font-bold text-primary">{service.titulo}</h1>
             </div>
-            <p className="text-base md:text-lg leading-relaxed">{service.descripcion}</p>
+            <div className="text-base md:text-lg leading-relaxed" dangerouslySetInnerHTML={{ __html: service.descripcion }}/>
           </div>
           {service.foto && service.foto !== "" && (
             <div className="photo w-full md:w-1/3 flex justify-center">

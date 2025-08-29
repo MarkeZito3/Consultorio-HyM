@@ -31,20 +31,20 @@ function App() {
             <Team />
           </>
         } />
-  {/* Legales y detalle */}
-  <Route path="/legales" element={
+        {/* Legales y detalle */}
+        <Route path="/legales" element={
           <>
             <BannerLegales />
             <Legales />
           </>
         } />
-  <Route path="/legales/:servicioRuta" element={
+        <Route path="/legales/:servicioRuta" element={
           <>
             <BannerLegales />
             <ServicioDetalle area="Legales" />
           </>
         } />
-  <Route path="/legales/:servicioRuta/:url" element={
+        <Route path="/legales/:servicioRuta/:url" element={
           <>
             <JurisprudenciaDetalle />
           </>

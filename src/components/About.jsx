@@ -1,21 +1,8 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import servicesData from './Services.json'
 import ElizabethImg from '../assets/team/Elizabeth.jpg'
 
 function About() {
-  const [selectedService, setSelectedService] = useState(null)
-
-  // Ordenar las áreas como pide el usuario
-  const areaOrder = ["Legales", "Contable", "DerechoInmobiliaria"];
-  const allServices = areaOrder.flatMap(area =>
-    (servicesData[area] || []).map(service => ({ ...service, area }))
-  );
-
-  const handleServiceClick = (service) => {
-    setSelectedService(selectedService?.id === service.id ? null : service)
-  }
-
   return (
     <section className="py-16 px-4">
       <div className="container mx-auto">

@@ -6,7 +6,7 @@ import { BannerLegales } from './Banner';
 
 
 function getImageJuri(name) {
-  return `/src/assets/${name}`;
+  return `/assets/${name}`;
 }
 
 export default function JurisprudenciaDetalle() {

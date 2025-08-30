@@ -23,10 +23,10 @@ function getPagesCasesById(id_ley) {
 }
 
 function getImage(name) {
-  return `/src/assets/services/${name}`
+  return `/assets/services/${name}`
 }
 function getImageJuri(name) {
-  return `/src/assets/${name}`
+  return `/assets/${name}`
 }
 
 export default function ServicioDetalle({ area }) {

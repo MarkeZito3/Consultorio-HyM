@@ -2,7 +2,7 @@ import teamData from './Team.json'
 // Importa todas las fotos necesarias
 
 function getImage(name) {
-  return `/src/assets/team/${name}`
+  return `/assets/team/${name}`
 }
 
 function Team() {

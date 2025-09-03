@@ -6,7 +6,7 @@ import Team from './components/Team'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-import { Legales, Contabilidad, DerechoInmobiliario, Ejemplo } from './components/Services-pages'
+import { Legales, Contabilidad, DerechoInmobiliario } from './components/Services-pages'
 import ServicioDetalle from './components/ServicioDetalle';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 import JurisprudenciaDetalle from './components/JurisprudenciaDetalle';
@@ -75,19 +75,6 @@ function App() {
           <>
             <BannerDerechoInmobiliario />
             <ServicioDetalle area="derecho_inmobiliario" />
-          </>
-        } />
-        {/* Ejemplo y detalle */}
-        <Route path="/ejemplo" element={
-          <>
-            <BannerContabilidad />
-            <Ejemplo />
-          </>
-        } />
-        <Route path="/ejemplo/:servicioRuta" element={
-          <>
-            <BannerContabilidad />
-            <ServicioDetalle area="Ejemplo" />
           </>
         } />
       </Routes>

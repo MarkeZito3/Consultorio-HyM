@@ -17,11 +17,6 @@ function getJuriById(id_ley) {
   return areaData.filter(j => j.id_ley === id_ley);
 }
 
-function getPagesCasesById(id_ley) {
-  // Retorna un jsx de todos los casos de jurisprudencias que tenga 
-
-}
-
 function getImage(name) {
   return `/assets/services/${name}`
 }

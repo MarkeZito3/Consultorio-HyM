@@ -17,7 +17,7 @@ function About() {
               Somos CONSULTORES HERNANDEZ & ASOCIADOS, una firma liderada por Willi Hernandez Orellana y Elizabeth Morales. Nos dedicamos a ofrecer soluciones legales y contables integrales, con un compromiso inquebrantable hacia la excelencia y la satisfacción del cliente.
             </p>
             <p className="text-gray-700 mb-4">
-              Estamos especializados en auditoría, contabilidad y defensa en Derecho Tributario, Laboral, Penal, Familia, Comercial, Civil y VIF. Además, brindamos asesoría financiera y jurídica personalizada, cubriendo sus necesidades.
+              Estamos especializados en auditoría, contabilidad y defensa en Derecho Tributario, Laboral, Penal, Familia, Comercial, Civil y Migratorio. Además, brindamos asesoría financiera y jurídica personalizada, cubriendo sus necesidades.
             </p>
           </div>
           <div className="md:w-1/2 flex justify-center">

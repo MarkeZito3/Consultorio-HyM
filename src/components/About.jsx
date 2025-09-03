@@ -1,6 +1,10 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import ElizabethImg from '../assets/team/Elizabeth.jpg'
+import ElizabethImg from '../assets/team/Elizabeth.png'
+import WilliHernandezImg from '../assets/team/WilliHernandez.png'
+import brbImg from '../assets/bienes-raices-banner.jpg'
+import cbImg from '../assets/contabilidad-banner.jpg'
+import lbImg from '../assets/legales-banner.jpg'
 
 function About() {
   return (
@@ -23,7 +27,7 @@ function About() {
                 <div className="w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-4 border-secondary shadow-lg hover:shadow-xl transition-shadow duration-300">
                   <img 
                     className="w-full h-full object-cover" 
-                    src="" 
+                    src={WilliHernandezImg} 
                     alt="Willi Hernández Orellana" 
                   />
                 </div>
@@ -55,21 +59,24 @@ function About() {
             <div className="w-24 h-1 bg-accent mx-auto mb-12"></div>
             {/* Grid de servicios */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-              <Link to ="/legales" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
-                <h2 className='font-semibold'>Legales</h2>
-                <p className="mt-2 text-sm text-gray-200">
+              <Link to="/legales" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg flex flex-col justify-between items-center min-h-[340px] relative overflow-hidden" onClick={() => {window.scrollTo(0, 0);}}>
+                <img src={lbImg} alt="Legales" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none" />
+                <h2 className='font-semibold relative z-10'>Legales</h2>
+                <p className="mt-2 text-sm text-gray-200 relative z-10">
                   Nuestro equipo de abogados especializados brinda asesoría personalizada, representación legal y soluciones efectivas para proteger sus derechos e intereses.
                 </p>
               </Link>
-              <Link to = "/contabilidad" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
-                <h2 className='font-semibold'>Contabilidad</h2>
-                <p className="mt-2 text-sm text-gray-200">
+              <Link to="/contabilidad" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg flex flex-col justify-between items-center min-h-[340px] relative overflow-hidden" onClick={() => {window.scrollTo(0, 0);}}>
+                <img src={cbImg} alt="Contabilidad" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none" />
+                <h2 className='font-semibold relative z-10'>Contabilidad</h2>
+                <p className="mt-2 text-sm text-gray-200 relative z-10">
                   Servicios contables profesionales para empresas y particulares.
                 </p>
               </Link>
-              <Link to = "/derecho_inmobiliario" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg" onClick={() => {window.scrollTo(0, 0);}}>
-                <h2 className='font-semibold'>Derecho Inmobiliario</h2>
-                <p className="mt-2 text-sm text-gray-200">
+              <Link to="/derecho_inmobiliario" className="practice-area bg-primary text-white rounded-lg shadow-md p-8 text-lg flex flex-col justify-between items-center min-h-[340px] relative overflow-hidden" onClick={() => {window.scrollTo(0, 0);}}>
+                <img src={brbImg} alt="Derecho Inmobiliario" className="absolute inset-0 w-full h-full object-cover opacity-20 pointer-events-none" />
+                <h2 className='font-semibold relative z-10'>Derecho Inmobiliario</h2>
+                <p className="mt-2 text-sm text-gray-200 relative z-10">
                   Ofrecemos asesoría integral en derecho inmobiliario y propiedad raíz.
                 </p>
               </Link>

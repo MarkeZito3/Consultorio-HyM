@@ -10,10 +10,12 @@ import { Legales, Contabilidad, DerechoInmobiliario, Ejemplo } from './component
 import ServicioDetalle from './components/ServicioDetalle';
 import PreguntasFrecuentes from './components/PreguntasFrecuentes'
 import JurisprudenciaDetalle from './components/JurisprudenciaDetalle';
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
   return (
     <Router>
+      <SpeedInsights />
       <Header />
       <Routes>
         <Route path="/" element={

@@ -2,7 +2,7 @@ export function Inicio() {
   return (
     <section 
       id="Inicio" 
-      className="hero-bg bg-primary text-white min-h-screen flex flex-col items-center justify-center px-4"
+      className="hero-bg bg-primary text-white min-h-screen flex flex-col items-center justify-center px-4 pb-10"
     >
       {/* Encabezado */}
       <div className="text-center mb-10">

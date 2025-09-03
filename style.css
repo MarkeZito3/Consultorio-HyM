@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 @keyframes marquee {
     0% {
         transform: translateX(70%);
@@ -12,7 +13,6 @@
     min-width: 100%;
     will-change: transform;
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
 html {
     scroll-behavior: smooth;
 }

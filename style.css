@@ -123,19 +123,19 @@ header {
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 #BannerLegales{
-    background: linear-gradient(#05163066, #050A30), url('/src/assets/legales-banner.jpg');
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/legales-banner.webp');
     background-size: cover;
     background-position: top;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 #BannerContabilidad{
-    background: linear-gradient(#05163066, #050A30), url('/src/assets/contabilidad-banner.jpg');
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/contabilidad-banner.webp');
     background-size: cover;
     background-position: center;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);
 }
 #BannerDerechoInmobiliario{
-    background: linear-gradient(#05163066, #050A30), url('/src/assets/bienes-raices-banner.jpg');
+    background: linear-gradient(#05163066, #050A30), url('/src/assets/bienes-raices-banner.webp');
     background-size: cover;
     background-position: center;
     transition: transform 0.5s cubic-bezier(0.4,0,0.2,1);

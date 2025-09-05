@@ -2,9 +2,9 @@ import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 import ElizabethImg from '../assets/team/Elizabeth.png'
 import WilliHernandezImg from '../assets/team/WilliHernandez.png'
-import brbImg from '../assets/bienes-raices-banner.jpg'
-import cbImg from '../assets/contabilidad-banner.jpg'
-import lbImg from '../assets/legales-banner.jpg'
+import brbImg from '../assets/bienes-raices-banner.webp'
+import cbImg from '../assets/contabilidad-banner.webp'
+import lbImg from '../assets/legales-banner.webp'
 
 function About() {
   return (

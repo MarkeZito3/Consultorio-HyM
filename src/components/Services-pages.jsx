@@ -68,26 +68,25 @@ function BannerElizabeth() {
             {/* Credenciales en grid minimalista */}
             <div className="grid grid-cols-2 gap-4 mb-8 max-w-md mx-auto lg:mx-0">
               <div className="text-center lg:text-left">
+                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Especialista en Derechos Sucesorios</p>
+                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
+              </div>
+              <div className="text-center lg:text-left">
+                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Magíster en Derecho Notarial y Registral</p>
+                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
+              </div>
+              <div className="text-center lg:text-left">
+                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Abogada</p>
+                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
+              </div>
+              <div className="text-center lg:text-left">
                 <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Contadora General</p>
-                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
-              </div>
-              <div className="text-center lg:text-left">
-                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Especialista Laboral</p>
-                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
-              </div>
-              <div className="text-center lg:text-left">
-                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Especialista Tributaria</p>
-                <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
-              </div>
-              <div className="text-center lg:text-left">
-                <p className="text-sm text-gray-500 uppercase tracking-wider mb-1">Habilitada en Derecho</p>
                 <div className="w-8 h-0.5 bg-primary mx-auto lg:mx-0"></div>
               </div>
             </div>
             
             <p className="mb-8 leading-relaxed max-w-lg lg:mx-0">
-              Especialista en el ámbito inmobiliario con amplia experiencia 
-              en asesoría contable, tributaria y legal para el sector inmobiliario.
+              Además de su sólida formación como abogada, magíster y contadora, Elizabeth es especialista en derecho registral y notarial, escrituras públicas, administración de condominios, saneamiento de títulos y bienes nacionales. Puede asesorarte en la confección de documentos notariales, regularización de propiedades, sucesiones, administración y reglamentación de condominios, así como en la gestión y saneamiento de bienes raíces y nacionales. Brinda soluciones legales y contables integrales, acompañando a sus clientes en cada etapa del proceso con profesionalismo y cercanía.
             </p>
             
             {/* botón de whatsapp */}

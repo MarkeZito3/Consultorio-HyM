@@ -70,7 +70,7 @@
       "descripcion": "El derecho civil regula las relaciones entre personas en asuntos cotidianos, como contratos, deudas, propiedad y responsabilidades legales. Buscamos soluciones proactivas para proteger sus derechos y contratos y su propiedad dentro de la ley.",
       "icono": "fas fa-balance-scale",
       "color": "bg-secondary",
-      "foto" : "legales/derecho-civil.png"
+      "foto" : "legales/derecho-civil.jpg"
     },
     {
       "id": 9,
@@ -89,360 +89,6 @@
       "icono": "fas fa-landmark",
       "color": "bg-secondary",
       "foto" : "legales/derecho-constitucional.png"
-    }
-  ],
-  "Ejemplo": [
-    {
-      "id": 1,
-      "titulo": "Consultoría Empresarial",
-      "ruta": "consultoria-empresarial",
-      "descripcion": "Consultoría integral para empresas de todos los tamaños. Ofrecemos asesoría en estructura organizacional, planificación estratégica, cumplimiento normativo, gestión de riesgos y optimización de procesos. Ayudamos a su empresa a crecer de manera sostenible y legalmente sólida.",
-      "icono": "fas fa-chart-line",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 2,
-      "titulo": "Inicio de Actividades",
-      "ruta": "inicio-actividades",
-      "descripcion": "-",
-      "icono": "fas fa-play-circle",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 3,
-      "titulo": "Términos de Giro",
-      "ruta": "terminos-giro",
-      "descripcion": "-",
-      "icono": "fas fa-stop-circle",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 4,
-      "titulo": "Confección de Imposiciones de PREVIRED",
-      "ruta": "imposiciones-previred",
-      "descripcion": "-",
-      "icono": "fas fa-file-invoice-dollar",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 5,
-      "titulo": "Confección Sociedades, Empresas en un Día",
-      "ruta": "sociedades-empresas",
-      "descripcion": "-",
-      "icono": "fas fa-building",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 6,
-      "titulo": "Modificaciones de Sociedades",
-      "ruta": "modificaciones-sociedades",
-      "descripcion": "-",
-      "icono": "fas fa-edit",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 7,
-      "titulo": "Tramitación de Licencias Médicas",
-      "ruta": "licencias-medicas",
-      "descripcion": "-",
-      "icono": "fas fa-notes-medical",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 8,
-      "titulo": "Certificado de Cotizaciones",
-      "ruta": "certificado-cotizaciones",
-      "descripcion": "-",
-      "icono": "fas fa-certificate",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 9,
-      "titulo": "Contratos de Trabajo",
-      "ruta": "contratos-trabajo",
-      "descripcion": "-",
-      "icono": "fas fa-file-contract",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 10,
-      "titulo": "Confección de Finiquitos",
-      "ruta": "finiquitos",
-      "descripcion": "-",
-      "icono": "fas fa-file-signature",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 11,
-      "titulo": "Liquidaciones de Sueldo",
-      "ruta": "liquidaciones-sueldo",
-      "descripcion": "-",
-      "icono": "fas fa-money-check-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 12,
-      "titulo": "Certificado de Antigüedad",
-      "ruta": "certificado-antiguedad",
-      "descripcion": "-",
-      "icono": "fas fa-id-badge",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 13,
-      "titulo": "Anexos de Contratos",
-      "ruta": "anexos-contratos",
-      "descripcion": "-",
-      "icono": "fas fa-paperclip",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 14,
-      "titulo": "Libro de remuneraciones",
-      "ruta": "libro-remuneraciones",
-      "descripcion": "-",
-      "icono": "fas fa-book",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 15,
-      "titulo": "Tramitación de Formulario 22 (Renta)",
-      "ruta": "formulario-22-renta",
-      "descripcion": "-",
-      "icono": "fas fa-file-invoice",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 16,
-      "titulo": "Tramitación de Formulario 29 (IVA)",
-      "ruta": "formulario-29-iva",
-      "descripcion": "-",
-      "icono": "fas fa-file-invoice-dollar",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 17,
-      "titulo": "Tramitación de Formulario F-30",
-      "ruta": "formulario-f30",
-      "descripcion": "-",
-      "icono": "fas fa-file-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 18,
-      "titulo": "Tramitación de Formulario F-30-1",
-      "ruta": "formulario-f30-1",
-      "descripcion": "-",
-      "icono": "fas fa-file-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 19,
-      "titulo": "Solicitud de Patente Comerciales",
-      "ruta": "patente-comerciales",
-      "descripcion": "-",
-      "icono": "fas fa-id-card",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 20,
-      "titulo": "Postulación a Proyectos",
-      "ruta": "postulacion-proyectos",
-      "descripcion": "-",
-      "icono": "fas fa-lightbulb",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 21,
-      "titulo": "Aviso de Venta de Vehículos",
-      "ruta": "aviso-venta-vehiculos",
-      "descripcion": "-",
-      "icono": "fas fa-car",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 22,
-      "titulo": "Término de Giro",
-      "ruta": "termino-giro",
-      "descripcion": "-",
-      "icono": "fas fa-stop-circle",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 23,
-      "titulo": "Planificación Tributaria",
-      "ruta": "planificacion-tributaria",
-      "descripcion": "-",
-      "icono": "fas fa-calculator",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 24,
-      "titulo": "Planificación Financiera",
-      "ruta": "planificacion-financiera",
-      "descripcion": "-",
-      "icono": "fas fa-chart-line",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 25,
-      "titulo": "Peticiones Administrativas",
-      "ruta": "peticiones-administrativas",
-      "descripcion": "-",
-      "icono": "fas fa-tasks",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 26,
-      "titulo": "Informe de Peritajes Contables",
-      "ruta": "peritajes-contables",
-      "descripcion": "-",
-      "icono": "fas fa-file-invoice",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 27,
-      "titulo": "Auditoría Interna",
-      "ruta": "auditoria-interna",
-      "descripcion": "-",
-      "icono": "fas fa-user-check",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 28,
-      "titulo": "Auditoría Externa",
-      "ruta": "auditoria-externa",
-      "descripcion": "-",
-      "icono": "fas fa-users",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 29,
-      "titulo": "Evaluación de Proyectos",
-      "ruta": "evaluacion-proyectos",
-      "descripcion": "-",
-      "icono": "fas fa-tasks",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 30,
-      "titulo": "Tramitación de Página de Trabajo (aviso de término de contrato)",
-      "ruta": "pagina-trabajo-termino",
-      "descripcion": "-",
-      "icono": "fas fa-briefcase",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 31,
-      "titulo": "Comparendo de Reclamaciones Laborales ante la Dirección del Trabajo",
-      "ruta": "reclamaciones-laborales-dt",
-      "descripcion": "-",
-      "icono": "fas fa-gavel",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 32,
-      "titulo": "Comparendo de Fiscalización de Impuestos Internos",
-      "ruta": "fiscalizacion-impuestos-internos",
-      "descripcion": "-",
-      "icono": "fas fa-balance-scale",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 33,
-      "titulo": "Respuestas a Reclamaciones ante el SII",
-      "ruta": "respuestas-reclamaciones-sii",
-      "descripcion": "-",
-      "icono": "fas fa-reply",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 34,
-      "titulo": "Defensa de Contribuyentes ante el SII",
-      "ruta": "defensa-contribuyentes-sii",
-      "descripcion": "-",
-      "icono": "fas fa-shield-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 35,
-      "titulo": "Presentación de Reclamaciones ante el SII",
-      "ruta": "presentacion-reclamaciones-sii",
-      "descripcion": "-",
-      "icono": "fas fa-file-upload",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 36,
-      "titulo": "Defensa de Contribuyentes ante el Tribunal Tributario",
-      "ruta": "defensa-tribunal-tributario",
-      "descripcion": "-",
-      "icono": "fas fa-balance-scale-right",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 37,
-      "titulo": "Recursos de Nulidad de Derecho Público",
-      "ruta": "recursos-nulidad-derecho-publico",
-      "descripcion": "-",
-      "icono": "fas fa-ban",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 38,
-      "titulo": "Reclamaciones por Avalúos Fiscales",
-      "ruta": "reclamaciones-avaluos-fiscales",
-      "descripcion": "-",
-      "icono": "fas fa-home",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 39,
-      "titulo": "Solicitud de Cambios de Titular de Bien Raíz ante el SII",
-      "ruta": "cambios-titular-bien-raiz-sii",
-      "descripcion": "-",
-      "icono": "fas fa-exchange-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 40,
-      "titulo": "Solicitud de Asignación de Rol de Avalúo Fiscal",
-      "ruta": "asignacion-rol-avaluo-fiscal",
-      "descripcion": "-",
-      "icono": "fas fa-list-ol",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 41,
-      "titulo": "Presentación de Condonaciones Tributarias",
-      "ruta": "condonaciones-tributarias",
-      "descripcion": "-",
-      "icono": "fas fa-hand-holding-usd",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 42,
-      "titulo": "Presentación de Prescripciones Tributarias",
-      "ruta": "prescripciones-tributarias",
-      "descripcion": "-",
-      "icono": "fas fa-prescription-bottle-alt",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 43,
-      "titulo": "Presentación de Convenios ante la Tesorería General de la República",
-      "ruta": "convenios-tesoreria-general",
-      "descripcion": "-",
-      "icono": "fas fa-handshake",
-      "color": "bg-secondary"
-    },
-    {
-      "id": 44,
-      "titulo": "Solicitar Prescripción y Abandono de Procedimientos ante la Tesorería General de la República",
-      "ruta": "prescripcion-abandono-tesoreria",
-      "descripcion": "-",
-      "icono": "fas fa-file-medical-alt",
-      "color": "bg-secondary"
     }
   ],
   "derecho_inmobiliario": [
@@ -527,7 +173,7 @@
       "descripcion": "Te ayudamos en cada etapa de tu negocio:<br>• <b>Inicio de actividades</b>: Asesoría para registrar legalmente tu empresa y comenzar a operar cumpliendo con la normativa vigente.<br>• <b>Confección de sociedades y empresas en un día</b>: Te guiamos en la creación de tu sociedad, ya sea limitada, SPA, EIRL u otra, utilizando el sistema rápido y seguro de “empresa en un día”.<br>• <b>Modificaciones de sociedades</b>: Gestionamos cambios en tu empresa, como actualización de socios, capital, giro o domicilio, para mantenerla al día y en regla.<br>• <b>Términos de giro</b>: Tramitamos el cierre legal de tu empresa, asegurando el cumplimiento de todos los requisitos ante el Servicio de Impuestos Internos y otras instituciones.<br>• <b>Solicitud de patentes comerciales</b>: Te ayudamos a obtener la patente municipal necesaria para que tu negocio pueda operar de manera legal en su comuna.",
       "icono": "fas fa-landmark",
       "color": "bg-secondary",
-      "foto": "contabilidad/constitucion-gestion-empresarial.png"
+      "foto": "contabilidad/constitucion-gestion-empresarial.jpg"
     },
     {
       "id": 2,
@@ -536,7 +182,7 @@
       "descripcion": "Te apoyamos en la gestión laboral de tu empresa:<br>• <b>Confección de imposiciones en Previred</b>: Cálculo y carga mensual de las cotizaciones previsionales de tus trabajadores en la plataforma Previred.<br>• <b>Certificado de cotizaciones</b>: Emisión de certificados actualizados que acreditan los pagos de cotizaciones previsionales.<br>• <b>Contratos de trabajo</b>: Redacción de contratos claros y ajustados a la normativa laboral vigente.<br>• <b>Confección de finiquitos</b>: Elaboración y cálculo de finiquitos, asegurando el correcto pago y cumplimiento legal al finalizar una relación laboral.<br>• <b>Liquidaciones de sueldo</b>: Preparación de liquidaciones mensuales detalladas y conforme a la ley para cada trabajador.<br>• <b>Certificado de antigüedad</b>: Emisión de documentos que acreditan el tiempo de servicio de cada trabajador en la empresa.<br>• <b>Anexos de contratos</b>: Creación de anexos para registrar cambios en las condiciones laborales, como funciones, horarios o sueldos.<br>• <b>Libro de remuneraciones</b>: Organización y actualización del libro de remuneraciones exigido por ley.<br>• <b>Tramitación de licencias médicas</b>: Gestión y envío de licencias médicas para asegurar su correcto procesamiento y pago.<br>• <b>Tramitación en portal de trabajo</b>: Publicación y registro de avisos de término de contrato en la plataforma correspondiente, cumpliendo con las obligaciones legales.",
       "icono": "fas fa-users-cog",
       "color": "bg-secondary",
-      "foto": "contabilidad/servicios-laborales.png"
+      "foto": "contabilidad/servicios-laborales.jpg"
     },
     {
       "id": 3,
@@ -563,7 +209,7 @@
       "descripcion": "Te ayudamos a defender tus derechos frente al Servicio de Impuestos Internos (SII):<br>• <b>Comparendo de fiscalización de impuestos internos</b>: Asesoría y acompañamiento durante inspecciones o auditorías del SII.<br>• <b>Respuestas a reclamaciones ante el SII</b>: Preparación de respuestas formales a observaciones o requerimientos de la institución.<br>• <b>Defensa de contribuyentes ante el SII</b>: Representación y argumentación para proteger los intereses de tu empresa o persona ante disputas tributarias.<br>• <b>Presentación de reclamaciones ante el SII</b>: Tramitamos recursos y reclamos cuando consideras que hay errores o cobros indebidos.<br>• <b>Presentación de condonaciones tributarias</b>: Gestión de solicitudes para condonar multas o intereses dentro de la normativa vigente.<br>• <b>Presentación de prescripciones tributarias</b>: Asesoría para aprovechar plazos legales y extinguir obligaciones tributarias cuando corresponda.",
       "icono": "fas fa-shield-alt",
       "color": "bg-secondary",
-      "foto": "contabilidad/defensa-ante-sii.png"
+      "foto": "contabilidad/defensa-ante-sii.jpg"
     },
     {
       "id": 6,
@@ -581,7 +227,7 @@
       "descripcion": "Te ayudamos a gestionar tus trámites inmobiliarios ante el SII:<br>• <b>Reclamaciones por avalúos fiscales</b>: Asesoría y presentación de recursos cuando consideras que el avalúo de tu propiedad no refleja su valor real.<br>• <b>Solicitud de cambios de titular de bien raíz ante el SII</b>: Tramitación de la actualización legal del propietario en el registro del SII.<br>• <b>Solicitud de asignación de rol de avalúo fiscal</b>: Gestión para obtener o corregir el rol de avalúo fiscal de un inmueble, asegurando que esté correctamente registrado.",
       "icono": "fas fa-home",
       "color": "bg-secondary",
-      "foto": "contabilidad/tramites-inmobiliarios-tributarios.png"
+      "foto": "contabilidad/tramites-inmobiliarios-tributarios.jpg"
     },
     {
       "id": 8,
@@ -590,7 +236,7 @@
       "descripcion": "Te ayudamos a gestionar tus trámites ante la Tesorería General de la República:<br>• <b>Presentación de convenios ante la Tesorería General de la República</b>: Asesoría para negociar y presentar acuerdos de pago o convenios con la Tesorería.<br>• <b>Solicitar prescripción y abandono de procedimientos ante la Tesorería General de la República</b>: Gestión para extinguir obligaciones tributarias o administrativos cuando corresponda según la ley.",
       "icono": "fas fa-money-check-alt",
       "color": "bg-secondary",
-      "foto": "contabilidad/servicios-ante-tesoreria-general.png"
+      "foto": "contabilidad/servicios-ante-tesoreria-general.jpg"
     },
     {
       "id": 9,
@@ -599,7 +245,7 @@
       "descripcion": "Te apoyamos en los trámites laborales ante la Dirección del Trabajo:<br>• <b>Comparendo de reclamaciones laborales ante la Dirección del Trabajo</b>: Asesoría y representación en audiencias y procedimientos para resolver conflictos entre empleadores y trabajadores, asegurando que se respeten tus derechos y obligaciones.",
       "icono": "fas fa-handshake",
       "color": "bg-secondary",
-      "foto": "contabilidad/tramites-laborales-direccion-trabajo.png"
+      "foto": "contabilidad/tramites-laborales-direccion-trabajo.jpg"
     },
     {
       "id": 10,
@@ -608,7 +254,7 @@
       "descripcion": "Te apoyamos en diversos trámites administrativos y legales:<br>• <b>Peticiones administrativas</b>: Redacción y presentación de solicitudes o requerimientos ante organismos públicos para resolver diferentes gestiones.<br>• <b>Aviso de venta de vehículos</b>: Tramitación legal del cambio de propiedad de vehículos para cumplir con las obligaciones ante el registro correspondiente.",
       "icono": "fas fa-cogs",
       "color": "bg-secondary",
-      "foto": "contabilidad/servicios-diversos.png"
+      "foto": "contabilidad/servicios-diversos.jpg"
     }
   ]
 }

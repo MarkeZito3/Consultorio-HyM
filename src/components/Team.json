@@ -1,25 +1,25 @@
 {
 "Area Legal": [
 	{
-		"foto": "WilliHernandez.jpg",
+		"foto": "WilliHernandez.png",
 		"nombre": "Willi Hernández Orellana",
 		"rol": "Abogado, especialista en sociedades, derecho tributario y derecho laboral",
 		"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
 	},
 	{
-		"foto": "Esperanza.jpg",
+		"foto": "Esperanza.png",
 		"nombre": "Esperanza [Apellido]",
 		"rol": "Abogada",
 		"especialidades": ["Litigios Civiles", "Derecho Familiar"]
 	},
 	{
-		"foto": "Sebastian.jpg",
+		"foto": "Sebastian.png",
 		"nombre": "Sebastián [Apellido]",
 		"rol": "Abogado",
 		"especialidades": ["Defensa Laboral", "Demandas Civiles"]
 	},
 		{
-		"foto": "WilliHijo.jpg",
+		"foto": "WilliHijo.png",
 			"nombre": "Willi Hernández Hijo",
 		"rol": "Abogado",
 		"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
@@ -27,13 +27,13 @@
 ],
 "Area Contable": [
 	{
-		"foto": "Roberto.jpg",
+		"foto": "Roberto.png",
 		"nombre": "Roberto [Apellido]",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad Financiera", "Auditoría", "Asesoría Fiscal"]
 	},
 	{
-		"foto": "Boris.jpg",
+		"foto": "Boris.png",
 		"nombre": "Boris [Apellido]",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad de Costos", "Gestión Financiera"]
@@ -41,7 +41,7 @@
 ],
 "Area Derecho Inmobiliario": [
 	{
-		"foto": "Elizabeth.jpg",
+		"foto": "Elizabeth.png",
 		"nombre": "Elizabeth M.",
 		"rol": "Abogada Inmobiliaria",
 		"especialidades": ["Litigios Inmobiliarios", "Desarrollo Urbano"]

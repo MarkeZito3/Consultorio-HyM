@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react'
-import logo from '../assets/logo.png';
 import logosimple from '../assets/logo-simple.svg';
 import { Link } from 'react-router-dom'
 

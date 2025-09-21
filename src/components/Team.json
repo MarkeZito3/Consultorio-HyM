@@ -2,24 +2,28 @@
 "Area Legal": [
 	{
 		"foto": "WilliHernandez.png",
+		"foto_bgless": "WilliHernandez_bgless.png",
 		"nombre": "Willi Hernández Orellana",
 		"rol": "Abogado, especialista en sociedades, derecho tributario y derecho laboral",
 		"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
 	},
 	{
-		"foto": "Esperanza.png",
+		"foto": "Espe.png",
+		"foto_bgless": "Espe_bgless.png",
 		"nombre": "Esperanza [Apellido]",
 		"rol": "Abogada",
 		"especialidades": ["Litigios Civiles", "Derecho Familiar"]
 	},
 	{
-		"foto": "Sebastian.png",
+		"foto": "seba.png",
+		"foto_bgless": "seba_bgless.png",
 		"nombre": "Sebastián [Apellido]",
 		"rol": "Abogado",
 		"especialidades": ["Defensa Laboral", "Demandas Civiles"]
 	},
 		{
 		"foto": "WilliHijo.png",
+		"foto_bgless": "WilliHijo_bgless.png",
 			"nombre": "Willi Hernández Hijo",
 		"rol": "Abogado",
 		"especialidades": ["Sociedades", "Derecho Tributario", "Derecho Laboral"]
@@ -27,13 +31,15 @@
 ],
 "Area Contable": [
 	{
-		"foto": "Roberto.png",
-		"nombre": "Roberto [Apellido]",
+		"foto": "Ricardo.png",
+		"foto_bgless": "Ricardo_bgless.png",
+		"nombre": "Ricardo [Apellido]",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad Financiera", "Auditoría", "Asesoría Fiscal"]
 	},
 	{
 		"foto": "Boris.png",
+		"foto_bgless": "Boris_bgless.png",
 		"nombre": "Boris [Apellido]",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad de Costos", "Gestión Financiera"]
@@ -42,6 +48,7 @@
 "Area Derecho Inmobiliario": [
 	{
 		"foto": "Elizabeth.png",
+		"foto_bgless": "Elizabeth_bgless.png",
 		"nombre": "Elizabeth M.",
 		"rol": "Abogada Inmobiliaria",
 		"especialidades": ["Litigios Inmobiliarios", "Desarrollo Urbano"]

@@ -59,21 +59,21 @@ header {
   animation: fade-in 0.4s ease;
 }
 
-.team-member {
+/* .team-member {
     transition: all 0.3s ease;
     transform: translateY(0);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.team-member:hover {
+/* .team-member:hover {
     transform: translateY(-10px);
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
-}
+} */
 
-.team-member:hover .specialty {
+/* .team-member:hover .specialty {
     opacity: 1;
     transform: translateY(0);
-}
+} */
 
 .specialty {
     opacity: 0;

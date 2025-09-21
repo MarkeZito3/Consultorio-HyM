@@ -91,7 +91,6 @@ function Header() {
               <Link to="/derecho_inmobiliario" className="block px-4 py-2 hover:bg-gray-100" onClick={() => {setOpen(false); setIsOpen(false); window.scrollTo(0, 0);}}>Derecho Inmobiliario</Link>
             </div>
           </div>
-          {/* <Link to="/equipo" className="mx-3 my-1 hover:text-accent transition" onClick={() => {setIsOpen(false); window.scrollTo(0, 0);}}>Equipo</Link> */}
           <Link to="/" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
             setIsOpen(false);
             if (window.location.pathname === "/") {
@@ -106,6 +105,10 @@ function Header() {
               if (el) el.scrollIntoView({ behavior: "smooth" });
             }
           }}>Contacto</Link>
+          <Link to="/equipo" className="mx-3 my-1 hover:text-accent transition" onClick={() => {
+            setIsOpen(false);
+            window.scrollTo(0, 0);
+          }}>Equipo</Link>
         </nav>
       </div>
     </header>

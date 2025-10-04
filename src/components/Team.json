@@ -10,14 +10,14 @@
 	{
 		"foto": "Espe.png",
 		"foto_bgless": "Espe_bgless.png",
-		"nombre": "Esperanza [Apellido]",
+		"nombre": "Esperanza",
 		"rol": "Abogada",
 		"especialidades": ["Litigios Civiles", "Derecho Familiar"]
 	},
 	{
 		"foto": "seba.png",
 		"foto_bgless": "seba_bgless.png",
-		"nombre": "Sebastián [Apellido]",
+		"nombre": "Sebastián",
 		"rol": "Abogado",
 		"especialidades": ["Defensa Laboral", "Demandas Civiles"]
 	},
@@ -33,14 +33,14 @@
 	{
 		"foto": "Ricardo.png",
 		"foto_bgless": "Ricardo_bgless.png",
-		"nombre": "Ricardo [Apellido]",
+		"nombre": "Ricardo",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad Financiera", "Auditoría", "Asesoría Fiscal"]
 	},
 	{
 		"foto": "Boris.png",
 		"foto_bgless": "Boris_bgless.png",
-		"nombre": "Boris [Apellido]",
+		"nombre": "Boris Morales Gajardo",
 		"rol": "Contador",
 		"especialidades": ["Contabilidad de Costos", "Gestión Financiera"]
 	}
@@ -49,7 +49,7 @@
 	{
 		"foto": "Elizabeth.png",
 		"foto_bgless": "Elizabeth_bgless.png",
-		"nombre": "Elizabeth M.",
+		"nombre": "Elizabeth Morales Gajardo",
 		"rol": "Abogada Inmobiliaria",
 		"especialidades": ["Litigios Inmobiliarios", "Desarrollo Urbano"]
 	}
